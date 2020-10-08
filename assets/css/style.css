@@ -3,13 +3,14 @@
 } 
 
 html, body{
-    height: 90%;
+    height: 100%;
     background-color: #333;
 }
 
 body {
     color:#fff;
     margin-bottom: 80px; /* Margin bottom by footer height */
+    min-height: 100%;
     ;
 }
 
@@ -29,3 +30,15 @@ body {
   ul {
     list-style-type: none;
 }
+
+.vertical-center {
+    min-height: 100%;  /* Fallback for browsers do NOT support vh unit */
+    min-height: 100vh; /* These two lines are counted as one :-)       */
+  
+    display: flex;
+    align-items: center;
+  }
+
+  .active a{
+    color: #06f0d1 !important;
+  }

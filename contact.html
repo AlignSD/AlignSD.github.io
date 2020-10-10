@@ -16,7 +16,7 @@
 <body>
     <!-- <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column"> -->
       <nav class="mb-1 navbar navbar-expand-lg fixed-top navbar-dark flex-column justify-content-center">
-          <span class="navbar-brand mx-auto">Evan Alioto</a></span>
+          <span class="smaller navbar-brand mx-auto">Evan Alioto</a></span>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent-4" aria-controls="navbarSupportedContent-4" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span> 
           </button>  
@@ -37,12 +37,31 @@
       </nav>
       <div class="vertical-center justify-content-center align-items-center">
       <div class="container">
-          <main role="main" class="col-12">
-            <h1 class="text-center">About Me!</h1>
-            <p class="lead">This is how you contact me!</p>
-            
+        <span class="larger border-bottom mb-4 d-flex justify-content-center align-items-center contact-me">Contact Me</span>
+          <div class="container">
+            <div class="form-group row">
+              <label for="colFormLabelsm" class="col-sm-2 col-form-label col-form-label-lg">Name</label>
+              <div class="col-sm-10">
+                <input type="Name" class="form-control form-control-lg" id="colFormLabelLg" placeholder="Your Name">
+              </div>
+            </div>
+            <div class="form-group row">
+              <label for="colFormLabelsm" class="col-sm-2 col-form-label col-form-label-lg">Email</label>
+              <div class="col-sm-10">
+                <input type="Email" class="form-control form-control-lg" id="colFormLabelLg" placeholder="Your Email">
+              </div>
+            </div>
+            <div class="form-group row">
+              <label for="exampleFormControlTextarea1" class="col-sm-2 col-form-label col-form-label-lg">Message</label>
+              <div class="col-sm-12">
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3">Your Message Here</textarea>
+               </div>
+               <button type="submit" class="btn btn-secondary p-3 mt-3 mx-auto">Send</button>   
+            </div>
+          </div>  
           </main>
-        </div>    
+        </div>  
+        
       </div>  
     </div>  
   

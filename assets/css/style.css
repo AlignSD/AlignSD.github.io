@@ -11,18 +11,22 @@ body {
     color:#fff;
     margin-bottom: 80px; /* Margin bottom by footer height */
     min-height: 100%;
-    
-    
 }
+
 .vertical-center {
     min-height: 100%;  /* Fallback for browsers do NOT support vh unit */
     min-height: 100vh; /* These two lines are counted as one :-)       */
-  
     display: flex;
     align-items: center;
     position: relative; 
+    
   }
-
+  /* Fix padding under menu after resize */
+  @media screen and (max-width: 767px) {
+    .vertical-center { 
+        padding-top: 200px; 
+    }
+}
 
 .footer {
     position: sticky;
@@ -34,11 +38,7 @@ body {
 
   }
 
-  /* .footer {
-      background-color:#ffa500;
-  } */
-
-  ul {
+ul {
     list-style-type: none;
 }
 
@@ -46,10 +46,10 @@ body {
     color: #06f0d1 !important;
   }
 
-  @media (max-width:480px){
+  @media screen and (max-width:480px){
 
     body{
-        padding:10px;
+        padding-top:100px;
         
     }
     .fixed-top{
@@ -72,3 +72,36 @@ p {
 /* .main {
     padding-top:40px;
 } */
+
+.large-fontsize{
+    font-size:30px !important;
+}
+
+span {
+    font-size:1em;
+}
+
+.smaller {
+    font-size:1.5em
+}
+
+.larger {
+    font-size: 3em;
+}
+
+.smallImage {
+    max-width: 200px;
+    max-height: 200px;
+}
+
+.btn.btn-secondary {
+    color: #06f0d1;
+    background-color: #1d1b1b;
+    box-shadow: 2px 2px 20px;
+}
+
+.btn.btn-secondary:hover {
+    background-color:#06f0d1;
+    color: orange;
+    outline: none;
+}

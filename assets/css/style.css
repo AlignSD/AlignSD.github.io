@@ -19,8 +19,12 @@ body {
     display: flex;
     align-items: center;
     position: relative; 
+    margin-bottom:70px;
+    margin-top:70px;
     
   }
+ 
+  
   /* Fix padding under menu after resize */
   @media screen and (max-width: 767px) {
     .vertical-center { 
@@ -59,6 +63,10 @@ ul {
 
 p {
     text-align:center;
+}
+
+.aboutMe {
+    margin-top:150px;
 }
 
 .card {
@@ -108,8 +116,4 @@ span {
 .portfolio-card {
     background-color: #333;
     box-shadow:5px 5px 15px;
-}
-
-.portfoliomargin {
-    margin-top:175px;
 }

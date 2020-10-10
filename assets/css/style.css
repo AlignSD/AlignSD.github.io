@@ -24,7 +24,7 @@ body {
   /* Fix padding under menu after resize */
   @media screen and (max-width: 767px) {
     .vertical-center { 
-        padding-top: 200px; 
+        padding-top: 70px; 
     }
 }
 
@@ -48,14 +48,13 @@ ul {
 
   @media screen and (max-width:480px){
 
-    body{
-        padding-top:100px;
-        
-    }
+    
     .fixed-top{
          position:relative;
     }
-
+    .navbar {
+        margin-top:0;
+    }
 }
 
 p {
@@ -104,4 +103,13 @@ span {
     background-color:#06f0d1;
     color: orange;
     outline: none;
+}
+
+.portfolio-card {
+    background-color: #333;
+    box-shadow:5px 5px 15px;
+}
+
+.portfoliomargin {
+    margin-top:175px;
 }

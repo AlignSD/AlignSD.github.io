@@ -11,8 +11,18 @@ body {
     color:#fff;
     margin-bottom: 80px; /* Margin bottom by footer height */
     min-height: 100%;
-    ;
+    
+    
 }
+.vertical-center {
+    min-height: 100%;  /* Fallback for browsers do NOT support vh unit */
+    min-height: 100vh; /* These two lines are counted as one :-)       */
+  
+    display: flex;
+    align-items: center;
+    position: relative; 
+  }
+
 
 .footer {
     position: sticky;
@@ -32,14 +42,33 @@ body {
     list-style-type: none;
 }
 
-.vertical-center {
-    min-height: 100%;  /* Fallback for browsers do NOT support vh unit */
-    min-height: 100vh; /* These two lines are counted as one :-)       */
-  
-    display: flex;
-    align-items: center;
-  }
-
-  .active a{
+.active a{
     color: #06f0d1 !important;
   }
+
+  @media (max-width:480px){
+
+    body{
+        padding:10px;
+        
+    }
+    .fixed-top{
+         position:relative;
+    }
+
+}
+
+p {
+    text-align:center;
+}
+
+.card {
+    @media (min-width: 480px) {
+        float: right !important;
+        }
+    }
+}
+
+/* .main {
+    padding-top:40px;
+} */

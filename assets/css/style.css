@@ -1,3 +1,7 @@
+/* *****************
+        Elements
+  ******************/
+
 *, ::after, ::before {
     box-sizing: border-box;
 } 
@@ -13,6 +17,24 @@ body {
     min-height: 100%;
 }
 
+ul {
+    list-style-type: none;
+}
+
+p {
+    text-align:center;
+}
+
+span {
+    font-size:1em;
+}
+
+/* *****************
+        Classes for
+        main body and
+        about me
+  ******************/
+
 .vertical-center {
     min-height: 100%;  /* Fallback for browsers do NOT support vh unit */
     min-height: 100vh; /* These two lines are counted as one :-)       */
@@ -21,14 +43,13 @@ body {
     position: relative; 
     margin-bottom:70px;
     margin-top:70px;
-    
-  }
+}
  
-  
   /* Fix padding under menu after resize */
   @media screen and (max-width: 767px) {
     .vertical-center { 
-        padding-top: 70px; 
+        padding-top: 50px; 
+        padding-bottom :70px;
     }
 }
 
@@ -42,10 +63,11 @@ body {
 
   }
 
-ul {
-    list-style-type: none;
+.aboutMe {
+    margin-top:150px;
 }
 
+  
 .active a{
     color: #06f0d1 !important;
   }
@@ -61,14 +83,6 @@ ul {
     }
 }
 
-p {
-    text-align:center;
-}
-
-.aboutMe {
-    margin-top:150px;
-}
-
 .card {
     @media (min-width: 480px) {
         float: right !important;
@@ -76,16 +90,12 @@ p {
     }
 }
 
-/* .main {
-    padding-top:40px;
-} */
-
+/* *****************
+        Classes for
+        Font sizing
+  ******************/
 .large-fontsize{
     font-size:30px !important;
-}
-
-span {
-    font-size:1em;
 }
 
 .smaller {
@@ -101,6 +111,11 @@ span {
     max-height: 200px;
 }
 
+ /* *****************
+        Classes for
+        btn states
+  ******************/
+
 .btn.btn-secondary {
     color: #06f0d1;
     background-color: #1d1b1b;
@@ -113,7 +128,12 @@ span {
     outline: none;
 }
 
+/* *****************
+        Class for
+        portforlio card
+  ******************/
 .portfolio-card {
     background-color: #333;
-    box-shadow:5px 5px 15px;
+    box-shadow:2px 2px 10px;
+    max-height:100%;
 }

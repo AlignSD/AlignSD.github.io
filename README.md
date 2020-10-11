@@ -1,6 +1,6 @@
 # My Portfolio #
 
-![Portforlio screen shot](/assets/Portfolio-page-img)
+![Portforlio screen shot](/assets/Portfolio-page-img.png)
 
 https://alignsd.github.io - Link To Website!
 

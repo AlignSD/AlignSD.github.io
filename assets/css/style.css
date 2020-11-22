@@ -29,6 +29,17 @@ span {
     font-size:1em;
 }
 
+.card-img-top {
+    flex-grow: 1;
+    height:10vh;
+    object-fit:contain;
+}
+.card-body{
+    flex-grow:0;
+    height:auto;
+    object-fit:contain;
+}
+
 /* *****************
         Classes for
         main body and
@@ -135,5 +146,5 @@ span {
 .portfolio-card {
     background-color: #333;
     box-shadow:2px 2px 10px;
-    max-height:100%;
+   
 }

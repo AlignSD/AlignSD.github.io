@@ -1,70 +1,36 @@
-# Getting Started with Create React App
+# My Portfolio #
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![Portforlio screen shot](/assets/Portfolio-page-img)
 
-## Available Scripts
+https://alignsd.github.io - Link To Website!
 
-In the project directory, you can run:
+## User Story
+Hey! I'm Evan Alioto. I'm currently enrolled in a Coding Bootcamp provided by UCSD Extension. I've always had the desire to learn how to code but never had anyone around me to help direct me, so I decided to just jump straight into it. So far I've been having a blast and the content I've been learning has helped affirm my desires to get into coding. My goals with all of this is to switch careers in order to pursue something I'm passionate about. I hope you enjoy my portfolio page and please don't be afraid to reach out! Thank you for your time. 
 
-### `npm start`
+## Table of Contents
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+* Description
+* Tools Used
+* Test
+* Want to Contribute?
+* License
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## Description
 
-### `npm test`
+This page is devoted to my portfolio. here you can see a bio about me, what I am working on, and how to contact me.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Tools Used
 
-### `npm run build`
+* Vs Code
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Want to Contribute?
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Find any errors or typos that you want to help fix?
+Fork This Repository!
+Then Clone it to your desktop to make changes.
+> $ git clone https://github.com/AlignSD/AlignSD.github.io<br>
+> $ cd AlignSD.github.io
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## License
 
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+MIT license

@@ -11,7 +11,7 @@ import "../src/style.css";
 function App() {
   return (
     <Router>
-      <link rel="stylesheet" href="assets/css/style.css"></link>
+      <link rel="stylesheet" href="./style.css"></link>
       <link rel="preconnect" href="https://fonts.gstatic.com"></link>
       <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet"></link>
       <div>

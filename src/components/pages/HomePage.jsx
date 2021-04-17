@@ -6,7 +6,7 @@ const styles = {
     float: 'left',
     width: '250px',
     height: '250px',
-    "margin-right": "10px"
+    marginRight: "10px"
 };
 
 const aquaText = {

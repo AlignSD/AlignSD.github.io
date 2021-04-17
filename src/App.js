@@ -16,11 +16,13 @@ function App() {
       <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet"></link>
       <div>
         <NavTabs />
-        <Switch>
+        <Home />
+        <Portfolio />
+        {/* <Switch>
         <Route exact path="/" component={Home} />
         <Route exact path="/portfolio" component={Portfolio} />
         <Route path="/contact" component={Contact} />
-        </Switch>
+        </Switch> */}
         <Footer />
       </div>
     </Router>

@@ -1,12 +1,12 @@
 import React from "react";
-
+import { HashLink as Link } from 'react-router-hash-link';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Nav from 'react-bootstrap/Nav'
 import Navbar from 'react-bootstrap/Navbar'
-import {
+// import {
 
-  Link
-} from "react-router-dom";
+//   Link
+// } from "react-router-dom";
 
 import "../../src/style.css"
 
@@ -25,7 +25,7 @@ function NavTabs() {
         <Nav className="mx-auto">
 
           <Link className="nav-link" to="/">Home</Link>
-          <Link className="nav-link" to="/portfolio">portfolio</Link>
+          <Link className="nav-link" to="#portfolio">portfolio</Link>
           {/* <Link className="nav-link" to="/contact">contact</Link>  Leave this for future development if I want to link a database to this. */}
         </Nav>
       </Navbar.Collapse>

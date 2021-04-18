@@ -25,7 +25,7 @@ function NavTabs() {
         <Nav className="col-sm-4 text-align-center justify-content-center" id="navLinks">
 
           <Link className="nav-link" smooth to="#home">Home</Link>
-          <Link className="nav-link" smooth to="#portfolio">portfolio</Link>
+          <Link className="nav-link" smooth to="#portfolio">Portfolio</Link>
           {/* <Link className="nav-link" to="/contact">contact</Link>  Leave this for future development if I want to link a database to this. */}
 
         </Nav>

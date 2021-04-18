@@ -24,8 +24,8 @@ function NavTabs() {
         <div>Evan Alioto</div><br />
         <Nav className="mx-auto">
 
-          <Link className="nav-link" to="/">Home</Link>
-          <Link className="nav-link" to="#portfolio">portfolio</Link>
+          <Link className="nav-link" smooth to="#home">Home</Link>
+          <Link className="nav-link" smooth to="#portfolio">portfolio</Link>
           {/* <Link className="nav-link" to="/contact">contact</Link>  Leave this for future development if I want to link a database to this. */}
         </Nav>
       </Navbar.Collapse>

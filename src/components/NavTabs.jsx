@@ -11,23 +11,25 @@ import Navbar from 'react-bootstrap/Navbar'
 import "../style.css"
 
 
+
 function NavTabs() {
   // This allows the component to check the route any time the user uses a link to navigate.
 
 
   return (
 
-    <Navbar sticky="top" collapseOnSelect expand="lg" bg="dark" variant="dark">
+    <Navbar sticky="top" collapseOnSelect expand="sm" bg="dark" variant="dark">
       {/* <Navbar.Brand className="mx-auto" href="/">Evan Alioto</Navbar.Brand> */}
       <Navbar.Toggle aria-controls="responsive-navbar-nav " />
       <Navbar.Collapse id="responsive-navbar-nav smallScreenNavLinks">
         <div className="navbar-brand col-sm-4 col-md-4 mx-auto smallScreenNavLinks">Evan Alioto</div><br />
         <Nav className="col-sm-4 col-md-4 text-align-center justify-content-center mx-auto" id="navLinks">
 
-          <Link className="nav-link pageLink smallScreenNavLinks" smooth to="#home">Home</Link>
-          <Link className="nav-link pageLink smallScreenNavLinks" smooth to="#portfolio">Portfolio</Link>
+          {/* smooth attribute causes the scroll to element to transition smoothly
+              eventKey is used to auto collapse the nav menu on smaller screen sizes when link is clicked */}
+          <Nav.Link className="nav-link pageLink smallScreenNavLinks" smooth to="#home" eventKey="1" as={Link}>Home</Nav.Link>
+          <Nav.Link className="nav-link pageLink smallScreenNavLinks" smooth to="#portfolio" eventKey="2" as={Link}>Portfolio</Nav.Link>
           {/* <Link className="nav-link" to="/contact">contact</Link>  Leave this for future development if I want to link a database to this. */}
-
         </Nav>
         <div className="col-sm-4 col-md-4 mx-auto">
           <ul className="row socialMediaLinks align-content-center">

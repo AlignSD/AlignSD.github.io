@@ -15,7 +15,7 @@ const aquaText = {
 
 function HomePage() {
     return (
-        <div className="d-flex align-items-start vertical-center" id="home">
+        <div className="d-flex align-items-center vertical-center" id="home">
             <div className="container aboutMe">
                 <main role="main" className="col-12">
                     <div className="row">

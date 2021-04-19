@@ -13,7 +13,7 @@ const styles = {
 
 function PortfolioPage() {
     return (
-        <div style={styles} className="vertical-center d-flex align-items-start" id="portfolio" >
+        <div style={styles} className="vertical-center d-flex align-items-center" id="portfolio" >
             <div className="container col-12 portfoliomargin">
                 <main role="main" className="row justify-content-center align-items-stretch portfoliomargin">
                     <div className="card text-center portfolio-card mr-2 mt-2" style={{ width: "18rem" }}>

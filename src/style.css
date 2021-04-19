@@ -43,7 +43,13 @@ span {
 }
 
 #navLinks{
-    padding-left: 15px;
+    padding-left: 25px;
+}
+.pageLink{
+    color:white;
+}
+.pageLink:active {
+    color:#06f0d1;
 }
 
 /* *****************

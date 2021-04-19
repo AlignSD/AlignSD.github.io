@@ -16,7 +16,7 @@ function PortfolioPage() {
         <div style={styles} className="vertical-center d-flex align-items-center" id="portfolio" >
             <div className="container col-12 portfoliomargin">
                 <main role="main" className="row justify-content-center align-items-stretch portfoliomargin">
-                    <div className="card text-center portfolio-card mr-5 ml-5 mb-5 mt-5 smallScreenPort col-lg-5 col-sm" >
+                    <div className="card text-center portfolio-card mr-5 ml-5 mb-5  smallScreenPort col-lg-5 col-sm" >
                         <img src={Tonelist} className="card-img-top" alt="screen with code" />
                         <div className="card-body">
                             <h5 className="card-title">Tonelist</h5>
@@ -25,7 +25,7 @@ function PortfolioPage() {
                             <a href="https://github.com/AlignSD/Tonelist" className="portBtn btn btn-primary">Github Page</a>
                         </div>
                     </div>
-                    <div className="card text-center portfolio-card mr-5 ml-5 mb-5 mt-5 smallScreenPort col-lg-5 col-sm">
+                    <div className="card text-center portfolio-card mr-5 ml-5 mb-5  smallScreenPort col-lg-5 col-sm">
                         <img src={planIt} className="card-img-top" alt="screen with code" />
                         <div className="card-body">
                             <h5 className="card-title">Plan.it</h5>
@@ -36,7 +36,7 @@ function PortfolioPage() {
                     </div>
                     <div className="w-100"></div>
 
-                    <div className="card text-center portfolio-card mr-5 ml-5 mb-5 mt-5 smallScreenPort col-lg-5 col-sm" >
+                    <div className="card text-center portfolio-card mr-5 ml-5 mb-5  smallScreenPort col-lg-5 col-sm" >
                         <img src={CastrSS} className="card-img-top" alt="screen with code" />
                         <div className="card-body">
                             <h5 className="card-title">4Castr</h5>
@@ -46,7 +46,7 @@ function PortfolioPage() {
                         </div>
                     </div>
 
-                    <div className="card text-center portfolio-card mr-5 ml-5 mb-5 mt-5 smallScreenPort col-lg-5 col-sm" >
+                    <div className="card text-center portfolio-card mr-5 ml-5 mb-5 smallScreenPort col-lg-5 col-sm" >
                         <img src={NuPassScreenShot} className="card-img-top" alt="screen with code" />
                         <div className="card-body">
                             <h5 className="card-title">NuPass</h5>

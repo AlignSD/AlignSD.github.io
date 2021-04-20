@@ -14,11 +14,14 @@ import "../style.css"
 
 function NavTabs() {
   // This allows the component to check the route any time the user uses a link to navigate.
-
+  const navbarbackground = {
+    background: "#333",
+    boxShadow: '0px 0px 0px 3px #06f0d1'
+  }
 
   return (
 
-    <Navbar sticky="top" collapseOnSelect expand="sm" variant="dark">
+    <Navbar sticky="top" collapseOnSelect expand="sm" variant="dark" style={navbarbackground}>
       {/* <Navbar.Brand className="mx-auto" href="/">Evan Alioto</Navbar.Brand> */}
       <Navbar.Toggle aria-controls="responsive-navbar-nav " />
       <Navbar.Collapse id="responsive-navbar-nav smallScreenNavLinks" >
@@ -27,7 +30,7 @@ function NavTabs() {
 
           {/* smooth attribute causes the scroll to element to transition smoothly
               eventKey is used to auto collapse the nav menu on smaller screen sizes when link is clicked */}
-          <Nav.Link className="nav-link pageLink navLinkColor smallScreenNavLinks" smooth to="#home" eventKey="1" as={Link}>Home</Nav.Link>
+          <Nav.Link className="nav-link pageLink navLinkColor smallScreenNavLinks" onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })} eventKey="1" >Home</Nav.Link>
           <Nav.Link className="nav-link pageLink navLinkColor smallScreenNavLinks" smooth to="#portfolio" eventKey="2" as={Link}>Portfolio</Nav.Link>
           {/* <Link className="nav-link" to="/contact">contact</Link>  Leave this for future development if I want to link a database to this. */}
         </Nav>

@@ -1,10 +1,10 @@
 import React from "react";
-import { HashRouter as Router, Route, Switch } from "react-router-dom";
+import { HashRouter as Router } from "react-router-dom";
 import NavTabs from "./components/NavTabs";
 import Footer from "./components/Footer";
 import Home from "./components/pages/HomePage";
 import Portfolio from "./components/pages/PortfolioPage";
-import Contact from "./components/pages/ContactPage";
+// import Contact from "./components/pages/ContactPage";
 import "../src/style.css";
 
 
@@ -12,8 +12,8 @@ function App() {
   return (
     <Router>
       <link rel="stylesheet" href="./style.css"></link>
-      <link rel="preconnect" href="https://fonts.gstatic.com"></link>
-      <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet"></link>
+      <link rel="preconnect" href="https://fonts.gstatic.com"/>
+      <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Roboto&display=swap" rel="stylesheet"/>
       <div>
         <NavTabs />
         <Home />

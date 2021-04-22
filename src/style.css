@@ -326,10 +326,6 @@ a {
         scroll-margin-top: 294px;
       }
 
-    
-        
-
-      
     .portfoliomargin {
         padding-top: 40px;
         margin-top: 0px;
@@ -351,7 +347,23 @@ a {
 @media screen and (max-width: 767px) {
     _::-webkit-full-page-media, _:future, :root .safari10 { 
         margin-top: 294px;
-        padding-bottom: -294px
+        padding-bottom: -294px;
     }
 }
+@media screen and (min-color-index:0) and(-webkit-min-device-pixel-ratio:0)
+{ @media {
+    .safari10 { 
+        margin-top: 294px;
+        padding-bottom: -294px;
+    }
+}}
 
+@media not all and (min-resolution:.001dpcm) { @media {
+
+    .safari10 { 
+
+        margin-top: 294px;
+        padding-bottom: -294px ;
+
+    }
+}}

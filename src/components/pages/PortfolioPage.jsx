@@ -13,7 +13,7 @@ const styles = {
 
 function PortfolioPage() {
     return (
-        <div style={styles} className="vertical-center d-flex align-items-center scrollTop scrollTopSmall safari10" id="portfolio" >
+        <div style={styles} className="vertical-center d-flex align-items-center safari10 scrollTop scrollTopSmall " id="portfolio" >
             <div className="container col-12 portfoliomargin">
                 <main role="main" className="row justify-content-center align-items-stretch portfoliomargin">
                     <div className="card text-center portfolio-card mr-5 ml-5 mb-5  smallScreenPort col-lg-5 col-sm" >

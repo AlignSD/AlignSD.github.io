@@ -265,6 +265,7 @@ a {
 .scrollTop {
     scroll-margin-top: 60px;
   }
+  
 
   /* *****************
         Media queries
@@ -309,8 +310,6 @@ a {
         font-weight: normal;
         font-size:1rem !important;
     }
-    
-
 }
 
   @media screen and (max-width:480px){
@@ -326,6 +325,10 @@ a {
     .scrollTopSmall {
         scroll-margin-top: 294px;
       }
+
+    
+        
+
       
     .portfoliomargin {
         padding-top: 40px;
@@ -336,10 +339,19 @@ a {
         align-content:center;
         flex-grow: 1;
     }
-}
+
 
 .card {
     @media (min-width: 480px) {
         float: right !important;
         }
     }
+}
+
+@media not all and (min-resolution:.001dpcm) { 
+    
+    .safari10 { 
+        margin-top: 294px;
+        padding-bottom: -294px 
+    }
+}

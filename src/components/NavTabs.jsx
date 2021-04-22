@@ -23,10 +23,10 @@ function NavTabs() {
 
     <Navbar sticky="top" collapseOnSelect expand="sm" variant="dark" style={navbarbackground}>
       {/* <Navbar.Brand className="mx-auto" href="/">Evan Alioto</Navbar.Brand> */}
-      <Navbar.Toggle aria-controls="responsive-navbar-nav scrollTop" />
-      <Navbar.Collapse id="responsive-navbar-nav smallScreenNavLinks scrollTop" >
+      <Navbar.Toggle aria-controls="responsive-navbar-nav " />
+      <Navbar.Collapse id="responsive-navbar-nav smallScreenNavLinks " >
         <div className="navbar-brand col-sm-4 col-md-4 mx-auto smallScreenNavLinks navLinkColor">Evan Alioto</div><br />
-        <Nav className="col-sm-4 col-md-4 text-align-center justify-content-center mx-auto scrollTop" id="navLinks">
+        <Nav className="col-sm-4 col-md-4 text-align-center justify-content-center mx-auto" id="navLinks">
 
           {/* smooth attribute causes the scroll to element to transition smoothly
               eventKey is used to auto collapse the nav menu on smaller screen sizes when link is clicked */}

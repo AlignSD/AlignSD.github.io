@@ -348,10 +348,11 @@ a {
     }
 }
 
-@media not all and (min-resolution:.001dpcm) { 
-    
+@media not all and (min-resolution:.001dpcm) { @media {
+
     .safari10 { 
         margin-top: 294px;
         padding-bottom: -294px 
     }
-}
+  }
+} 

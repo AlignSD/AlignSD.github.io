@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/static/css/main.c9149179.chunk.css",
-    "main.js": "/static/js/main.f4110ce1.chunk.js",
-    "main.js.map": "/static/js/main.f4110ce1.chunk.js.map",
+    "main.css": "/static/css/main.90130375.chunk.css",
+    "main.js": "/static/js/main.8978749e.chunk.js",
+    "main.js.map": "/static/js/main.8978749e.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.276045b7.js",
     "runtime-main.js.map": "/static/js/runtime-main.276045b7.js.map",
     "static/css/2.150d169a.chunk.css": "/static/css/2.150d169a.chunk.css",
@@ -12,7 +12,7 @@
     "static/js/3.f4b04877.chunk.js.map": "/static/js/3.f4b04877.chunk.js.map",
     "index.html": "/index.html",
     "static/css/2.150d169a.chunk.css.map": "/static/css/2.150d169a.chunk.css.map",
-    "static/css/main.c9149179.chunk.css.map": "/static/css/main.c9149179.chunk.css.map",
+    "static/css/main.90130375.chunk.css.map": "/static/css/main.90130375.chunk.css.map",
     "static/js/2.8d532f5c.chunk.js.LICENSE.txt": "/static/js/2.8d532f5c.chunk.js.LICENSE.txt",
     "static/media/4CastrSS.d2f0a759.png": "/static/media/4CastrSS.d2f0a759.png",
     "static/media/NuPassScreenShot.f734fd5d.png": "/static/media/NuPassScreenShot.f734fd5d.png",
@@ -24,7 +24,7 @@
     "static/js/runtime-main.276045b7.js",
     "static/css/2.150d169a.chunk.css",
     "static/js/2.8d532f5c.chunk.js",
-    "static/css/main.c9149179.chunk.css",
-    "static/js/main.f4110ce1.chunk.js"
+    "static/css/main.90130375.chunk.css",
+    "static/js/main.8978749e.chunk.js"
   ]
 }

@@ -1,5 +1,4 @@
 import React from "react";
-import { HashLink as Link } from 'react-router-hash-link';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Nav from 'react-bootstrap/Nav'
 import Navbar from 'react-bootstrap/Navbar'
@@ -19,19 +18,20 @@ function NavTabs() {
     boxShadow: '0px 0px 0px 3px #06f0d1'
   }
 
+
   return (
 
     <Navbar sticky="top" collapseOnSelect expand="sm" variant="dark" style={navbarbackground}>
       {/* <Navbar.Brand className="mx-auto" href="/">Evan Alioto</Navbar.Brand> */}
-      <Navbar.Toggle aria-controls="responsive-navbar-nav " />
-      <Navbar.Collapse id="responsive-navbar-nav smallScreenNavLinks" >
+      <Navbar.Toggle aria-controls="responsive-navbar-nav scrollTop" />
+      <Navbar.Collapse id="responsive-navbar-nav smallScreenNavLinks scrollTop" >
         <div className="navbar-brand col-sm-4 col-md-4 mx-auto smallScreenNavLinks navLinkColor">Evan Alioto</div><br />
-        <Nav className="col-sm-4 col-md-4 text-align-center justify-content-center mx-auto " id="navLinks">
+        <Nav className="col-sm-4 col-md-4 text-align-center justify-content-center mx-auto scrollTop" id="navLinks">
 
           {/* smooth attribute causes the scroll to element to transition smoothly
               eventKey is used to auto collapse the nav menu on smaller screen sizes when link is clicked */}
           <Nav.Link className="nav-link pageLink navLinkColor smallScreenNavLinks" onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })} eventKey="1" >Home</Nav.Link>
-          <Nav.Link className="nav-link pageLink navLinkColor smallScreenNavLinks" smooth to="#portfolio" eventKey="2" as={Link}>Portfolio</Nav.Link>
+          <Nav.Link className="nav-link pageLink navLinkColor smallScreenNavLinks" onClick={() => document.getElementById("portfolio").scrollIntoView({ behavior: "smooth", block: "start" })} eventKey="2">Portfolio</Nav.Link>
           {/* <Link className="nav-link" to="/contact">contact</Link>  Leave this for future development if I want to link a database to this. */}
         </Nav>
         <div className="col-sm-4 col-md-4 mx-auto">

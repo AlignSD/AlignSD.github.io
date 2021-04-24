@@ -95,7 +95,8 @@ a {
 
 .backgroundCard{
     background: rgba(51, 51, 51, 0.6);
-    padding: 30px 30px 30px 30px;
+    padding: 30px 16px 30px 16px;
+    width: 100px;
 }
 .vertical-center {
     min-height: 100%;  /* Fallback for browsers do NOT support vh unit */
@@ -161,7 +162,9 @@ a {
 }
 
 .aboutMe {
-    margin-top:150px;
+    margin-top:75px;
+    width: 100vw;
+    padding: 0px;
 }
 
  
@@ -367,3 +370,8 @@ a {
 
     }
 }}
+
+
+.noPadding {
+    padding: 0px;
+}

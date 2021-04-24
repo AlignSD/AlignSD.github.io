@@ -25,10 +25,10 @@ const aboutMeExlamation = {
 function HomePage() {
     return (
         <div className="d-flex align-items-center vertical-center" id="home">
-            <div className="container aboutMe">
-                <main role="main" className="col-12">
+            <div className="container col-12 aboutMe">
+                <main role="main" className="col-12 noPadding">
                     <div className="row">
-                        <div className="col-md-12 backgroundCard">
+                        <div className="col-md-12 backgroundCard ">
                             <div className='row justify-content-center '>
                                 <h1 className="text-center" style={aquaText}>About Me</h1>
                                 <h1 className="text-center" style={aboutMeExlamation}>!</h1>

@@ -27,7 +27,7 @@ function HomePage() {
         <>
             <div className='header-wraper '>
                 <div className='main-info'>
-                    <h1>Hi, I'm Evan!</h1>
+                    <h1 className="header-title">Hi, I'm Evan!</h1>
                     <Typed
                         className='typed-text'
                         strings={['Web Design', 'Web Development', 'Anything']}

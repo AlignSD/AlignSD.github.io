@@ -8,6 +8,8 @@
 
 :root {
     --primary-white: #fff;
+    --primary-teal: #06f0d1;
+    --primary-orange: orange; 
 }
 
 html, body{
@@ -149,6 +151,10 @@ a {
     z-index: 1;
     
   }
+
+.header-title {
+    font-size: 4rem;
+}
 
 /**************************************
             About Me/Main
@@ -406,7 +412,7 @@ a {
   ************************************/
 .typed-text {
     font-size: 2rem;
-    color: var(--primary-white);
+    color: var(--primary-orange);
     
   }
   

@@ -5,6 +5,8 @@ import Tonelist from "./assets/Project-Images/Tonelist-homepage.png";
 import planIt from "./assets/Project-Images/plan-it-ss.png";
 import CastrSS from "./assets/Project-Images/4CastrSS.png";
 import NuPassScreenShot from "./assets/Project-Images/NuPassScreenShot.png";
+import SocialMediaApp from "./assets/Project-Images/social-media-app-home-page.png";
+import Cryptick from "./assets/Project-Images/cryptick.png";
 
 const styles = {
     // background: 'red',
@@ -16,6 +18,27 @@ function PortfolioPage() {
         <div style={styles} className="vertical-center d-flex align-items-center safari10 scrollTop scrollTopSmall " id="portfolio" >
             <div className="container col-12 portfoliomargin">
                 <main role="main" className="row justify-content-center align-items-stretch portfoliomargin">
+                    <div className="card text-center portfolio-card mr-5 ml-5 mb-5  smallScreenPort col-lg-5 col-sm" >
+                        <img src={SocialMediaApp} className="card-img-top" alt="screen with code" />
+                        <div className="card-body">
+                            <h5 className="card-title">Social Media App</h5>
+                            <p className="card-text">Simple social media app that allows users to register, post, comment, like/dislike and delete with user
+permissions. </p>
+                            <a href="https://social-media-merng-app.herokuapp.com/" className="portBtn btn btn-primary">Live Product</a>
+                            <a href="https://github.com/AlignSD/SocialMediaApp" className="portBtn btn btn-primary">Github Page</a>
+                        </div>
+                    </div>
+                    <div className="card text-center portfolio-card mr-5 ml-5 mb-5  smallScreenPort col-lg-5 col-sm">
+                        <img src={Cryptick} className="card-img-top" alt="screen with code" />
+                        <div className="card-body">
+                            <h5 className="card-title">Cryptick</h5>
+                            <p className="card-text">Blockchain Ticketing Service utilizing the Ethereum blockchain thru deployed smart contracts.</p>
+                            <a href="https://alignsd.github.io/Plan.it/" className="portBtn btn btn-primary margin-right-20">Live Product</a>
+                            <a href="https://github.com/AlignSD/Ticket_Bits" className="portBtn btn btn-primary mx-20">Github Page</a>
+                        </div>
+                    </div>
+                    <div className="w-100"></div>
+
                     <div className="card text-center portfolio-card mr-5 ml-5 mb-5  smallScreenPort col-lg-5 col-sm" >
                         <img src={Tonelist} className="card-img-top" alt="screen with code" />
                         <div className="card-body">

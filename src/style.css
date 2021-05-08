@@ -84,7 +84,7 @@ a {
 }
 
 .socialLinks {
-    transition: all 0.2 ease-in-out;
+    transition: all .2s ease-in-out;
 }
 
 .socialLinks:hover, socialLinks:focus{
@@ -93,7 +93,7 @@ a {
 
 .pageLink{
     color:white;
-    transition: all 0.2 ease-in-out;
+    transition: all .2s ease-in-out;
 }
 .pageLink:active {
     color:#06f0d1;

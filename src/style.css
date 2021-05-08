@@ -10,6 +10,7 @@
     --primary-white: #fff;
     --primary-teal: #06f0d1;
     --primary-orange: orange; 
+    --primary-light-grey: grey;
 }
 
 html, body{
@@ -82,11 +83,24 @@ a {
     padding: 0px 15px;
 }
 
+.socialLinks {
+    transition: all 0.2 ease-in-out;
+}
+
+.socialLinks:hover, socialLinks:focus{
+    transform: scale(1.1);
+}
+
 .pageLink{
     color:white;
+    transition: all 0.2 ease-in-out;
 }
 .pageLink:active {
     color:#06f0d1;
+}
+
+.pageLink:hover, .pageLink:focus {
+    transform: scale(1.1);
 }
 
 .navbar-dark .navbar-nav .nav-link {
@@ -207,6 +221,16 @@ a {
 .portBtn {
     margin-right: 20px;
     margin-left: 20px;
+    background-color: var(--primary-light-grey);
+    transition: all .2s ease-in-out;
+    border-color: var(--primary-teal);
+}
+.portBtn:focus, .portBtn:hover {
+    margin-right: 20px;
+    margin-left: 20px;
+    background-color: var(--primary-orange);
+    border-color: var(--primary-teal);
+    transform: scale(1.1);
 }
 
 /**************************************
@@ -250,7 +274,7 @@ a {
             Button States
   ************************************/
 
-.btn.btn-secondary {
+/* .btn.btn-secondary {
     color: #06f0d1;
     background-color: #1d1b1b;
     box-shadow: 2px 2px 20px;
@@ -260,7 +284,7 @@ a {
     background-color:#06f0d1;
     color: orange;
     outline: none;
-}
+} */
  
 /**************************************
             Media Queries

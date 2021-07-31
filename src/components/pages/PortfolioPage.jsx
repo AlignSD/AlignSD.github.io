@@ -7,22 +7,24 @@ import CastrSS from "./assets/Project-Images/4CastrSS.png";
 import NuPassScreenShot from "./assets/Project-Images/NuPassScreenShot.png";
 import SocialMediaApp from "./assets/Project-Images/social-media-app-home-page.png";
 import Cryptick from "./assets/Project-Images/cryptick.png";
+import PortfolioCard from "../PortfolioCard/PortfolioCard";
 
 const styles = {
     // background: 'red',
     marginTop: '20'
 };
 
-const buttons = {
-    background: "orange"
-}
+// const buttons = {
+//     background: "orange"
+// }
 
 function PortfolioPage() {
     return (
         <div style={styles} id='portfolio' className="vertical-center d-flex align-items-center safari10 scrollTop scrollTopSmall " >
             <div className="container col-12 portfoliomargin">
                 <main role="main" className="row justify-content-center align-items-stretch portfoliomargin">
-                    <div className="card text-center portfolio-card mr-5 ml-5 mb-5  smallScreenPort col-lg-5 col-sm" >
+                    <PortfolioCard />
+                    {/* <div className="card text-center portfolio-card mr-5 ml-5 mb-5  smallScreenPort col-lg-5 col-sm" >
                         <img src={SocialMediaApp} className="card-img-top" alt="screen with code" />
                         <div className="card-body">
                             <h5 className="card-title">Social Media App</h5>
@@ -81,7 +83,7 @@ permissions. </p>
                             <a href="https://alignsd.github.io/NuPass" className="btn btn-primary portBtn portfolioButtons" target="_blank" rel="noreferrer">Live Product</a>
                             <a href="https://github.com/AlignSD/NuPass" className="portBtn btn btn-primary portfolioButtons" target="_blank" rel="noreferrer">Github Page</a>
                         </div>
-                    </div>
+                    </div> */}
 
                 </main>
             </div>

@@ -1,12 +1,12 @@
 import React from "react";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import "../../../src/style.css"
-import Tonelist from "./assets/Project-Images/Tonelist-homepage.png";
-import planIt from "./assets/Project-Images/plan-it-ss.png";
-import CastrSS from "./assets/Project-Images/4CastrSS.png";
-import NuPassScreenShot from "./assets/Project-Images/NuPassScreenShot.png";
-import SocialMediaApp from "./assets/Project-Images/social-media-app-home-page.png";
-import Cryptick from "./assets/Project-Images/cryptick.png";
+// import Tonelist from "./assets/Project-Images/Tonelist-homepage.png";
+// import planIt from "./assets/Project-Images/plan-it-ss.png";
+// import CastrSS from "./assets/Project-Images/4CastrSS.png";
+// import NuPassScreenShot from "./assets/Project-Images/NuPassScreenShot.png";
+// import SocialMediaApp from "./assets/Project-Images/social-media-app-home-page.png";
+// import Cryptick from "./assets/Project-Images/cryptick.png";
 import PortfolioCard from "../PortfolioCard/PortfolioCard";
 
 const styles = {

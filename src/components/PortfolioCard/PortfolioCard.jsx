@@ -11,6 +11,9 @@ import CryptickImg from "../pages/assets/Project-Images/cryptick.png";
 
 import React from 'react'
 
+// TODO: style cards for a better layout.
+// TODO: add pagination or categories for projects.
+
 const PortfolioCard = () => {
   const projects = [
     {

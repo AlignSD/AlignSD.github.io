@@ -2,53 +2,55 @@
               Elements
   ************************************/
 
-*, ::after, ::before {
-    box-sizing: border-box;
-} 
-
-:root {
-    --primary-white: #fff;
-    --primary-teal: #06f0d1;
-    --primary-orange: orange; 
-    --primary-light-grey: grey;
+*,
+::after,
+::before {
+  box-sizing: border-box;
 }
 
-html, body{
-    height: 100%;
-    background-color: #333;
+:root {
+  --primary-white: #fff;
+  --primary-teal: #06f0d1;
+  --primary-orange: orange;
+  --primary-light-grey: grey;
+}
+
+html,
+body {
+  height: 100%;
+  background-color: var(--primary-white);
 }
 
 body {
-    color:#fff;
-    margin-bottom: 80px; /* Margin bottom by footer height */
-    min-height: 100%;
-    font-family: 'Roboto', sans-serif;
-    /* overflow: hidden; */
+  color: #fff;
+  margin-bottom: 80px; /* Margin bottom by footer height */
+  min-height: 100%;
+  font-family: "Roboto", sans-serif;
+  /* overflow: hidden; */
 }
 
 ul {
-    list-style-type: none;
+  list-style-type: none;
 }
 
 p {
-    text-align:center;
-    color: White;
-    font-weight: bold;
-    text-shadow: 1px 0px  black;
+  text-align: center;
+  color: White;
+  font-weight: bold;
+  text-shadow: 1px 0px black;
 }
 
 p.lead {
-    font-size:1.5rem;
-    line-height:2rem;
-    
+  font-size: 1.5rem;
+  line-height: 2rem;
 }
 
 span {
-    font-size:1em;
+  font-size: 1em;
 }
 
 a {
-    color:#06f0d1
+  color: #06f0d1;
 }
 
 /**************************************
@@ -56,85 +58,86 @@ a {
   ************************************/
 
 .row {
-    margin: 0px;
+  margin: 0px;
 }
 
-.active{
-    color: #06f0d1 !important;
-  }
+.active {
+  color: #06f0d1 !important;
+}
 
 /**************************************
                 Navbar
   ************************************/
 .navbar-expand-sm .navbar-nav .nav-link {
-    padding-right: 1rem;
-    padding-left: 1rem;
+  padding-right: 1rem;
+  padding-left: 1rem;
 }
 
-#navLinks{
-    padding: 0px 15px 0px 15px;
-    margin-left: 0.875rem;
+#navLinks {
+  padding: 0px 15px 0px 15px;
+  margin-left: 0.875rem;
 }
 
 .socialMediaLinks {
-    display:flex;
-    justify-content:flex-end;
-    margin: 0px;
-    padding: 0px 15px;
+  display: flex;
+  justify-content: flex-end;
+  margin: 0px;
+  padding: 0px 15px;
 }
 
 .socialLinks {
-    transition: all .2s ease-in-out;
+  transition: all 0.2s ease-in-out;
 }
 
-.socialLinks:hover, socialLinks:focus{
-    transform: scale(1.1);
+.socialLinks:hover,
+socialLinks:focus {
+  transform: scale(1.1);
 }
 
-.pageLink{
-    color:white;
-    transition: all .2s ease-in-out;
+.pageLink {
+  color: white;
+  transition: all 0.2s ease-in-out;
 }
 .pageLink:active {
-    color:#06f0d1;
+  color: #06f0d1;
 }
 
-.pageLink:hover, .pageLink:focus {
-    transform: scale(1.1);
+.pageLink:hover,
+.pageLink:focus {
+  transform: scale(1.1);
 }
 
 .navbar-dark .navbar-nav .nav-link {
-    color: rgba(255,255,255,1);
+  color: rgba(255, 255, 255, 1);
 }
 
 .navbar-brand {
-    display: inline-block;
-    padding-top: .3125rem;
-    padding-bottom: .3125rem;
-    font-size: 1.25rem;
-    line-height: inherit;
-    white-space: nowrap;
-    margin-right: 0px;
+  display: inline-block;
+  padding-top: 0.3125rem;
+  padding-bottom: 0.3125rem;
+  font-size: 1.25rem;
+  line-height: inherit;
+  white-space: nowrap;
+  margin-right: 0px;
 }
 
 .card-img-top {
-    height:35vh;
-    margin-top: 15px;
+  height: 35vh;
+  margin-top: 15px;
 }
-.card-body{
-    flex-grow:0;
-    height:auto;
-    object-fit:contain;
+.card-body {
+  flex-grow: 0;
+  height: auto;
+  object-fit: contain;
 }
 
 .navLinkColor {
-    /* color: black !important; */
-    font-weight: bold !important;
-    text-shadow: 1px 0px  black;
-    color:black;
-    font-size:1.75rem;
-    font-family: 'Lobster';
-    
+  /* color: black !important; */
+  font-weight: bold !important;
+  text-shadow: 1px 0px black;
+  color: black;
+  font-size: 1.75rem;
+  font-family: "Lobster";
 }
 
 /**************************************
@@ -142,132 +145,149 @@ a {
   ************************************/
 
 .header-wraper {
-    position: relative;
-    
-    background-size: cover;
-    background-position: center;
-    height: 75vh;
-  }
-  
-  .main-info {
-    display: flex;
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    padding-bottom: 70px;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    font-family: "Roboto", "sans-sherif";
-    z-index: 1;
-    
-  }
+  position: relative;
+  border-bottom-right-radius: 20rem;
+  background-size: cover;
+  background-position: center;
+  height: 75vh;
+  background: rgb(201, 25, 159);
+  background: linear-gradient(
+    90deg,
+    rgba(201, 25, 159, 1) 0%,
+    rgba(115, 0, 255, 1) 100%
+  );
+}
+
+.main-info {
+  display: flex;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  padding-bottom: 70px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-family: "Roboto", "sans-sherif";
+  z-index: 1;
+}
 
 .header-title {
-    font-size: 4rem;
+  font-size: 4rem;
 }
 
 /**************************************
             About Me/Main
   ************************************/
 #home {
-    background: url('./components/pages/assets/surfbackgroundbw.jpg');
-    background-size: cover;
+  /* background: url("./components/pages/assets/surfbackgroundbw.jpg"); */
+  background-size: cover;
 }
 
 .aboutMe {
-    margin-top:75px;
-    width: 100vw;
-    padding: 0px;
+  margin-top: 75px;
+  max-width: 60%;
+  padding: 0px;
 }
 
-.backgroundCard{
-    background: rgba(51, 51, 51, 0.6);
-    padding: 30px 16px 30px 16px;
-    width: 100vw;
+.backgroundCard {
+  background: rgba(51, 51, 51, 0.7);
+  padding: 30px 16px 30px 16px;
+  width: 100%;
+  border-radius: 30px;
 }
 .vertical-center {
-    min-height: 100%;  /* Fallback for browsers do NOT support vh unit */
-    min-height: 100vh; /* These two lines are counted as one :-)       */
-    display: flex;
-    align-items: center;
-    position: relative; 
-    margin-bottom:70px;
-    margin-top:-70px;
+  min-height: 100%; /* Fallback for browsers do NOT support vh unit */
+  min-height: 100vh; /* These two lines are counted as one :-)       */
+  display: flex;
+  align-items: center;
+  position: relative;
+  margin-bottom: 70px;
+  margin-top: -70px;
 }
 
- /**************************************
+/**************************************
             Portfolio card
   ************************************/
-  .portfolio-card {
-    background-color: #333;
-    box-shadow: 0 5px 10px rgba(154,160,185,.05), 0 15px 40px rgba(166,173,201,.2)
-   
+#portfolio {
+  margin-bottom: 0px;
+}
+.portfolio-card {
+  background-color: #333;
+  box-shadow: 0 5px 10px rgba(154, 160, 185, 0.05),
+    0 15px 40px rgba(166, 173, 201, 0.2);
 }
 
 .portfoliomargin {
-    /* padding-top: 40px; */
-    margin-top: 60px;
-    /* margin-bottom: 60px; */
-    display:flex;
-    justify-content: center;
-    align-content:center;
-    flex-grow: 1;
+  /* padding-top: 40px; */
+  margin-top: 60px;
+  border-radius: 20rem 0rem 0rem 0rem;
+  background: rgb(201, 25, 159);
+  background: linear-gradient(
+    90deg,
+    rgba(201, 25, 159, 1) 0%,
+    rgba(115, 0, 255, 1) 100%
+  );
+  margin-bottom: 0px;
+  /* margin-bottom: 60px; */
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-grow: 1;
 }
 
 .portBtn {
-    margin-right: 20px;
-    margin-left: 20px;
-    background-color: var(--primary-light-grey);
-    transition: all .2s ease-in-out;
-    border-color: var(--primary-teal);
+  margin-right: 20px;
+  margin-left: 20px;
+  background-color: var(--primary-light-grey);
+  transition: all 0.2s ease-in-out;
+  border-color: var(--primary-teal);
 }
-.portBtn:focus, .portBtn:hover {
-    margin-right: 20px;
-    margin-left: 20px;
-    background-color: var(--primary-orange);
-    border-color: var(--primary-teal);
-    transform: scale(1.1);
+.portBtn:focus,
+.portBtn:hover {
+  margin-right: 20px;
+  margin-left: 20px;
+  background-color: var(--primary-orange);
+  border-color: var(--primary-teal);
+  transform: scale(1.1);
 }
 
 /**************************************
             Footer
   ************************************/
-  .footer {
-    position: fixed, bottom;
-    bottom: 0;
-    width: 100%;
-    background-color: #06f0d1;
-    color:orange;
-    box-shadow: 5px 10px grey;
-
-  }
+.footer {
+  position: fixed, bottom;
+  bottom: 0;
+  width: 100%;
+  background-color: #06f0d1;
+  color: orange;
+  box-shadow: 5px 10px grey;
+}
 
 .footerLinks {
-    padding: 0px;
+  padding: 0px;
 }
 
 /**************************************
             Font Settings
   ************************************/
-.large-fontsize{
-    font-size:30px !important;
+.large-fontsize {
+  font-size: 30px !important;
 }
 
 .smaller {
-    font-size:1.5em
+  font-size: 1.5em;
 }
 
 .larger {
-    font-size: 3em;
+  font-size: 3em;
 }
 
 .smallImage {
-    max-width: 200px;
-    max-height: 200px;
+  max-width: 200px;
+  max-height: 200px;
 }
 
 /**************************************
@@ -285,202 +305,204 @@ a {
     color: orange;
     outline: none;
 } */
- 
+
 /**************************************
             Media Queries
   ************************************/
-      /* Fix padding under menu after resize */
-  @media screen and (max-width: 767px) {
-    .vertical-center { 
-        padding-top: 50px; 
-        padding-bottom :70px;
-    }
-}
-
-  @media screen and (max-width: 767px) {
-    .card-img-top {
-        flex-grow: 1;
-        height:15vh;
-        object-fit:cover;
-        margin-top: 15px;
-    }
-    .card-body{
-        flex-grow:1;
-        height:auto;
-        object-fit:contain;
-    }
-    .portBtn {
-        margin-right: 0px;
-        margin-left: 0px;
-        margin-top: 10px;
-    }
-
-    .socialMediaLinks {
-        display:flex;
-        justify-content: center;
-        padding: 0px;
-    }
-
-    .smallScreenNavLinks {
-        display:flex;
-        justify-content: center;
-    }
-    
-}
-
-  @media screen and (max-width: 1239px) {
-    .card-img-top {
-        flex-grow: 1;
-        height:15vh;
-        object-fit:cover;
-        margin-top: 15px;
-    }
-    .card-body{
-        flex-grow:1;
-        height:auto;
-        object-fit:contain;
-    }
-    .portBtn {
-        margin-right: 0px;
-        margin-left: 0px;
-        margin-top: 10px;
-    }
-
-    .socialMediaLinks {
-        display:flex;
-        justify-content: center;
-        padding: 0px;
-    }
-
-    .smallScreenNavLinks {
-        display:flex;
-        justify-content: center;
-    }
-    .navbar {
-        background:#333;
-        padding: 0px;
-    }
-    p.lead {
-        
-        font-size:1rem;
-    }
-    p.card-text {
-        font-weight: normal;
-        font-size:1rem !important;
-    }
-}
-
-  @media screen and (max-width:480px){
-
-    
-    .fixed-top{
-         position:relative;
-    }
-    .navbar {
-        margin-top:0;
-        padding: 5px 5px 5px 5px;
-    }
-    .scrollTopSmall {
-        scroll-margin-top: 294px;
-      }
-
-    .aboutMe {
-        margin-top:75px;
-        width: 100vw;
-        padding: 40px;
-    }  
-
-    .portfoliomargin {
-        padding-top: 40px;
-        margin-top: 0px;
-        margin-bottom: 0px;
-        display:flex;
-        justify-content: center;
-        align-content:center;
-        flex-grow: 1;
-    }
-
-.card {
-    @media (min-width: 480px) {
-        float: right !important;
-        }
-    }
+/* Fix padding under menu after resize */
+@media screen and (max-width: 767px) {
+  .vertical-center {
+    padding-top: 50px;
+    padding-bottom: 70px;
+  }
 }
 
 @media screen and (max-width: 767px) {
-    _::-webkit-full-page-media, _:future, :root .safari10 { 
-        margin-top: 294px;
-        padding-bottom: -294px;
-    }
+  .card-img-top {
+    flex-grow: 1;
+    height: 15vh;
+    object-fit: cover;
+    margin-top: 15px;
+  }
+  .card-body {
+    flex-grow: 1;
+    height: auto;
+    object-fit: contain;
+  }
+  .portBtn {
+    margin-right: 0px;
+    margin-left: 0px;
+    margin-top: 10px;
+  }
+
+  .socialMediaLinks {
+    display: flex;
+    justify-content: center;
+    padding: 0px;
+  }
+
+  .smallScreenNavLinks {
+    display: flex;
+    justify-content: center;
+  }
 }
-@media screen and (min-color-index:0) and(-webkit-min-device-pixel-ratio:0)
-{ @media {
-    .safari10 { 
-        margin-top: 294px;
-        padding-bottom: -294px;
+
+@media screen and (max-width: 1239px) {
+  .card-img-top {
+    flex-grow: 1;
+    height: 15vh;
+    object-fit: cover;
+    margin-top: 15px;
+  }
+  .card-body {
+    flex-grow: 1;
+    height: auto;
+    object-fit: contain;
+  }
+  .portBtn {
+    margin-right: 0px;
+    margin-left: 0px;
+    margin-top: 10px;
+  }
+
+  .socialMediaLinks {
+    display: flex;
+    justify-content: center;
+    padding: 0px;
+  }
+
+  .smallScreenNavLinks {
+    display: flex;
+    justify-content: center;
+  }
+  .navbar {
+    background: #333;
+    padding: 0px;
+  }
+  p.lead {
+    font-size: 1rem;
+  }
+  p.card-text {
+    font-weight: normal;
+    font-size: 1rem !important;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .fixed-top {
+    position: relative;
+  }
+  .navbar {
+    margin-top: 0;
+    padding: 5px 5px 5px 5px;
+  }
+  .scrollTopSmall {
+    scroll-margin-top: 294px;
+  }
+
+  .aboutMe {
+    margin-top: 75px;
+    max-width: 100%;
+    padding: 40px;
+  }
+
+  .header-wraper {
+    border-bottom-right-radius: 10rem;
+  }
+
+  .portfoliomargin {
+    border-radius: 10rem 0rem 0rem 0rem;
+    padding-top: 40px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-grow: 1;
+  }
+
+  .card {
+    @media (min-width: 480px) {
+      float: right !important;
     }
-}}
+  }
+}
 
-@media not all and (min-resolution:.001dpcm) { @media {
-
-    .safari10 { 
-
-        margin-top: 294px;
-        padding-bottom: -294px ;
-
+@media screen and (max-width: 767px) {
+  _::-webkit-full-page-media,
+  _:future,
+  :root .safari10 {
+    margin-top: 294px;
+    padding-bottom: -294px;
+  }
+}
+@media screen and (min-color-index: 0) and(-webkit-min-device-pixel-ratio:0) {
+  @media {
+    .safari10 {
+      margin-top: 294px;
+      padding-bottom: -294px;
     }
-}}
- 
+  }
+}
+
+@media not all and (min-resolution: 0.001dpcm) {
+  @media {
+    .safari10 {
+      margin-top: 294px;
+      padding-bottom: -294px;
+    }
+  }
+}
+
 /**************************************
             typed-text
   ************************************/
 .typed-text {
-    font-size: 2rem;
-    color: var(--primary-orange);
-    
+  font-size: 2rem;
+  color: var(--primary-orange);
+}
+
+@media (max-width: 768px) {
+  .main-info h1 {
+    font-size: 1.7rem !important;
   }
-  
-  @media(max-width: 768px) {
-    .main-info h1 {
-      font-size: 1.7rem !important;
-    }
-    .typed-text {
-      font-size: 1.3rem;
-    }
+  .typed-text {
+    font-size: 1.3rem;
   }
+}
 
 /**************************************
             Particles
   ************************************/
 
 canvas.tsparticles-canvas-el {
-    height: 50%;
+  height: 50%;
 }
 
 .tsparticles-canvas-el {
-    position:absolute;
-    height: 75vh !important;
-    width: 100vh;
-    z-index: 1;
+  position: absolute;
+  height: 75vh !important;
+  width: 100vh;
+  z-index: 1;
+}
+
+@media (max-width: 768px) {
+  .particles-canvas {
+    display: none;
   }
-  
-  @media(max-width: 768px) {
-    .particles-canvas {
-      display: none;
-    }
-  }
+}
 
 element.style {
-    height: 0%;
-  }
+  height: 0%;
+}
 
 /**************************************
             Padding Reset
   ************************************/
 .noPadding {
-    padding: 0px;
-  }
+  padding: 0px;
+}
 
-  .scrollTop {
-    scroll-margin-top: 60px;
-  }
+.scrollTop {
+  scroll-margin-top: 60px;
+}

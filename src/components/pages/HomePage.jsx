@@ -2,6 +2,7 @@ import React from "react";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import "../../../src/style.css";
 import Typed from 'react-typed';
+import Technologies from "../../components/Technologies/Technologies"
 // const styles = {
 //     float: 'left',
 //     width: '250px',
@@ -37,6 +38,7 @@ function HomePage() {
                     />
                 </div>
             </div>
+            <Technologies />
             <div className="d-flex align-items-center vertical-center scrollTop scrollTopSmall" id="home">
                 <div className="container col-12 aboutMe">
 

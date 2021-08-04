@@ -15,14 +15,14 @@ import "../style.css"
 function NavTabs() {
   // This allows the component to check the route any time the user uses a link to navigate.
   const navbarbackground = {
-    background: "#333",
+    // background: "#333",
     boxShadow: '0px 0px 0px 3px #06f0d1'
   }
 
 
   return (
 
-    <Navbar sticky="top" collapseOnSelect expand="sm" variant="dark" style={navbarbackground}>
+    <Navbar sticky="top" collapseOnSelect expand="sm" variant="dark" style={navbarbackground} className="navBarBackground">
       {/* <Navbar.Brand className="mx-auto" href="/">Evan Alioto</Navbar.Brand> */}
       <Navbar.Toggle aria-controls="responsive-navbar-nav " />
       <Navbar.Collapse id="responsive-navbar-nav smallScreenNavLinks " >

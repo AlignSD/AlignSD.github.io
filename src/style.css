@@ -37,12 +37,12 @@ p {
   text-align: center;
   color: White;
   font-weight: bold;
-  text-shadow: 1px 0px black;
 }
 
 p.lead {
   font-size: 1.5rem;
   line-height: 2rem;
+  color: black;
 }
 
 span {
@@ -76,6 +76,15 @@ a {
 #navLinks {
   padding: 0px 15px 0px 15px;
   margin-left: 0.875rem;
+}
+
+.navBarBackground {
+  background: rgb(201, 25, 159);
+  background: linear-gradient(
+    90deg,
+    rgba(201, 25, 159, 1) 0%,
+    rgba(115, 0, 255, 1) 100%
+  );
 }
 
 .socialMediaLinks {
@@ -185,6 +194,7 @@ socialLinks:focus {
   display: flex;
   align-items: center;
   justify-content: space-around;
+  margin-top: 10rem;
 }
 
 /* for icons under header section */
@@ -212,6 +222,30 @@ socialLinks:focus {
   padding: 0px;
 }
 
+.aboutMeSection {
+  color: black;
+  display: flex;
+  justify-content: center;
+  margin-top: 10rem;
+  margin-bottom: 10rem;
+}
+
+hr {
+  content: "";
+  height: 1px;
+  width: 60%;
+  border-bottom: 2px solid rgb(201, 25, 159);
+}
+.aboutMeSection p {
+  color: black;
+}
+
+.aboutMeHeader {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .backgroundCard {
   background: rgba(51, 51, 51, 0.7);
   padding: 30px 16px 30px 16px;
@@ -225,7 +259,6 @@ socialLinks:focus {
   align-items: center;
   position: relative;
   margin-bottom: 70px;
-  margin-top: -70px;
 }
 
 /**************************************
@@ -333,7 +366,6 @@ socialLinks:focus {
 @media screen and (max-width: 767px) {
   .vertical-center {
     padding-top: 50px;
-    padding-bottom: 70px;
   }
 }
 

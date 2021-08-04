@@ -240,10 +240,12 @@ hr {
   color: black;
 }
 
-.aboutMeHeader {
+.AboutMeHeader {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-top: 10rem;
+  margin-bottom: 10rem;
 }
 
 .backgroundCard {

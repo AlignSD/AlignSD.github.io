@@ -17,7 +17,7 @@ const AboutMe = () => {
       <div className="container col-12 aboutMe">
           <main role="main" className="noPadding">
               <div className="">
-                <div className="row justify-content-center">
+                <div className="row justify-content-center AboutMeHeader">
                 <h1 className="text-center" style={aquaText}>About Me</h1><h1 className="text-center" style={aboutMeExlamation}>!</h1>
               </div>
               <div className="aboutMeContainer left">

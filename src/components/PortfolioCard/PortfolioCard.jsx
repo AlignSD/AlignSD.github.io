@@ -76,7 +76,7 @@ const PortfolioCard = () => {
   }
 
   return (
-   <div>
+   <div className="container">
      {projects.map(renderCard)}
    </div>  
   )

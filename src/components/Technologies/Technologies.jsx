@@ -1,11 +1,14 @@
 import React from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faCheckSquare, faCoffee } from "@fortawesome/free-solid-svg-icons"
+import { faGit, faJs, faNode, faReact} from '@fortawesome/free-brands-svg-icons'
 
 const Technologies = () => {
   return (
-    <div>
-      <FontAwesomeIcon icon={faCoffee} />
+    <div className="iconsContainer container">
+      <FontAwesomeIcon icon={faGit} black className="icon icon-cog" />
+      <FontAwesomeIcon icon={faJs} className="icon" />
+      <FontAwesomeIcon icon={faNode}  className="icon" />
+      <FontAwesomeIcon icon={faReact} className="icon" />
     </div>
   )
 }

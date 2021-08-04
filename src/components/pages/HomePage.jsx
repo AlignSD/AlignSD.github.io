@@ -38,7 +38,7 @@ function HomePage() {
                     />
                 </div>
             </div>
-            <Technologies />
+            <Technologies className="icon"/>
             <div className="d-flex align-items-center vertical-center scrollTop scrollTopSmall" id="home">
                 <div className="container col-12 aboutMe">
 

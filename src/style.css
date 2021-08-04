@@ -179,6 +179,26 @@ socialLinks:focus {
 }
 
 /**************************************
+            Icons
+  ************************************/
+.iconsContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+/* for icons under header section */
+.container > svg.icon {
+  display: inline-block;
+  font-size: inherit;
+  height: 3em;
+  overflow: visible;
+  vertical-align: -0.125em;
+  width: 3em;
+  color: black;
+}
+
+/**************************************
             About Me/Main
   ************************************/
 #home {
@@ -348,6 +368,11 @@ socialLinks:focus {
 }
 
 @media screen and (max-width: 1239px) {
+  .card {
+    margin-top: 80px;
+    max-width: 80%;
+  }
+
   .card-img-top {
     flex-grow: 1;
     height: 15vh;

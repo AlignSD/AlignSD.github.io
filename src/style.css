@@ -249,6 +249,15 @@ hr {
   font-weight: 500;
 }
 
+@media (max-width: 768px) {
+  .aboutMeSection h3 {
+    color: rgb(162, 0, 255);
+    margin-right: 0rem;
+    margin-left: 0rem;
+    font-weight: 500;
+  }
+}
+
 .AboutMeHeader {
   display: flex;
   justify-content: center;

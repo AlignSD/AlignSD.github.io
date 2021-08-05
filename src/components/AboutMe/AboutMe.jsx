@@ -22,7 +22,7 @@ const AboutMe = () => {
                 <h1 className="text-center" style={aquaText}>About Me</h1><h1 className="text-center" style={aboutMeExlamation}>!</h1>
               </div>
               <div className="aboutMeContainer left">
-                <div className="row-lg-5 row-sm-12 aboutMeSection mx-auto my-5">
+                <div className="row-lg-5  aboutMeSection mx-auto my-5">
                   <h3 className="col-md-3">
                     Who am I?
                   </h3>
@@ -31,7 +31,7 @@ const AboutMe = () => {
                  <hr></hr>
               </div>
               <div className="aboutMeContainer right">
-                <div className="row-lg-5 row-sm-12 aboutMeSection mx-auto my-5">
+                <div className="row-lg-5  aboutMeSection mx-auto my-5">
                 <p className="col-md-9 col-lg-6 ml-10">I am currently looking for a position as a Front-End or Full-Stack Developer. I code in JavaScript and primarly use the React framework but I am always willing to learn new technologies.</p>
                   <h3 className="col-md-3">
                     What I am Looking for.
@@ -40,7 +40,7 @@ const AboutMe = () => {
                 <hr></hr>
               </div>
               <div className="aboutMeContainer left">
-                <div className="row-lg-5 row-sm-12 aboutMeSection mx-auto my-5">
+                <div className="row-lg-5  aboutMeSection mx-auto my-5">
                   <h3 className="col-md-3">
                     My Experience.
                   </h3>
@@ -49,7 +49,7 @@ const AboutMe = () => {
                 <hr></hr>
               </div>
               <div className="aboutMeContainer right">
-                <div className="row-lg-5 row-sm-12 aboutMeSection mx-auto my-5">
+                <div className="row-lg-5  aboutMeSection mx-auto my-5">
                 <p className="col-md-9 col-lg-6 ml-9">I bring to the table a lifetime of troubleshooting and debugging expirence and I believe those skill translate well into the developer role.</p>
                   <h3 className="col-md-3">
                     What I can do for you.

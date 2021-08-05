@@ -218,8 +218,9 @@ a {
 }
 
 .aboutMe {
-  max-width: 60%;
+  max-width: 65%;
   padding: 0px;
+  margin-top: 4rem;
 }
 
 .aboutMeSection {
@@ -241,6 +242,7 @@ hr {
 }
 .aboutMeSection p {
   color: black;
+  margin-bottom: 4rem;
 }
 .aboutMeSection h3 {
   color: rgb(162, 0, 255);

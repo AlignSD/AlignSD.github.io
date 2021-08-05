@@ -18,9 +18,9 @@ const AboutMe = () => {
       <div className="container col-12 aboutMe">
           <main role="main" className="noPadding">
               <div className="">
-                <div className="row justify-content-center AboutMeHeader">
+                {/* <div className="row justify-content-center AboutMeHeader">
                 <h1 className="text-center" style={aquaText}>About Me</h1><h1 className="text-center" style={aboutMeExlamation}>!</h1>
-              </div>
+              </div> */}
               <div className="aboutMeContainer left">
                 <div className="row-lg-5  aboutMeSection mx-auto my-5">
                   <h3 className="col-md-3">

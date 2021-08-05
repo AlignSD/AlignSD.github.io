@@ -22,7 +22,7 @@ function NavTabs() {
 
   return (
 
-    <Navbar sticky="top" collapseOnSelect expand="sm" variant="dark" style={navbarbackground} className="navBarBackground">
+    <Navbar sticky="top" collapseOnSelect expand="md" variant="dark" style={navbarbackground} className="navBarBackground">
       {/* <Navbar.Brand className="mx-auto" href="/">Evan Alioto</Navbar.Brand> */}
       <Navbar.Toggle aria-controls="responsive-navbar-nav " />
       <Navbar.Collapse id="responsive-navbar-nav smallScreenNavLinks " >

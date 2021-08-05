@@ -1,12 +1,13 @@
 import React from 'react'
 const aquaText = {
   color: '#06f0d1',
-  fontFamily: 'Lobster',
+  fontFamily: 'Roboto',
+  fontWeight: 900,
   fontSize: "4rem",
 }
 const aboutMeExlamation = {
-
-  fontFamily: 'Lobster',
+  
+  fontFamily: 'Roboto',
   fontSize: "4rem",
   color:"black",
   textShadow: "1px 0px black"
@@ -43,13 +44,13 @@ const AboutMe = () => {
                   <h3 className="col-md-3">
                     My Experience.
                   </h3>
-                  <p className="col-md-9 col-lg-6 ml-10">My name is Evan Alioto and I am a Full-Stack Web Developer from San Diego, California. </p>
+                  <p className="col-md-9 col-lg-6 ml-10">I have been consistently coding for one year now. I've created a handful of full stack applications, games, and static sites! </p>
                 </div>
                 <hr></hr>
               </div>
               <div className="aboutMeContainer right">
                 <div className="row-lg-5 row-sm-12 aboutMeSection mx-auto my-5">
-                <p className="col-md-9 col-lg-6 ml-9">I am currently looking for a position as a Front-End or Full-Stack Developer. I code in JavaScript and primarly use the React framework but I am always willing to learn new technologies.</p>
+                <p className="col-md-9 col-lg-6 ml-9">I bring to the table a lifetime of troubleshooting and debugging expirence and I believe those skill translate well into the developer role.</p>
                   <h3 className="col-md-3">
                     What I can do for you.
                   </h3>

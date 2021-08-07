@@ -56,19 +56,10 @@ function App() {
           }}
         />
         <NavTabs />
-
         <Home />
-
         <Technologies className="icon" />
-
         <AboutMe />
-
         <Portfolio />
-        {/* <Switch>
-        <Route exact path="/" component={Home} />
-        <Route exact path="/portfolio" component={Portfolio} />
-        <Route path="/contact" component={Contact} />
-        </Switch> */}
         <Footer />
       </div>
     </Router>

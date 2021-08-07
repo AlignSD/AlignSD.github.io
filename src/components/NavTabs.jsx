@@ -10,6 +10,8 @@ import Navbar from 'react-bootstrap/Navbar'
 
 import "../style.css"
 
+// TODO: replace name with logo.
+// TODO: new font styles for nav links.
 
 
 function NavTabs() {

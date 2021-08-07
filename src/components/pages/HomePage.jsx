@@ -10,6 +10,8 @@ import Typed from 'react-typed';
 //     marginRight: "10px"
 // };
 
+// TODO: Rename to MainBanner or something along those lines to better describe what it is.
+
 const aquaText = {
     color: '#06f0d1',
     fontFamily: 'Lobster',

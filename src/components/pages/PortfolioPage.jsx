@@ -9,6 +9,10 @@ import "../../../src/style.css"
 // import Cryptick from "./assets/Project-Images/cryptick.png";
 import PortfolioCard from "../PortfolioCard/PortfolioCard";
 
+// TODO: [] move to components folder and into own folder from there.
+// TODO: [] add pagination.
+// TODO: [] improve styling on cards.
+
 const styles = {
     // background: 'red',
     marginTop: '20'

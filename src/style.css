@@ -8,6 +8,7 @@ TODO: about me section needs to be cleaned up on smaller screen queries. bottom 
               Elements
   ************************************/
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap");
 
 *,
 ::after,
@@ -32,8 +33,7 @@ body {
   color: #fff;
   margin-bottom: 80px; /* Margin bottom by footer height */
   min-height: 100%;
-  font-family: "Roboto", sans-serif;
-  /* overflow: hidden; */
+  font-family: "Montserrat", sans-serif;
 }
 
 ul {
@@ -74,8 +74,10 @@ a {
 }
 
 #navLinks {
+  font-family: "Montserrat", "sans-serif";
   padding: 0px 15px 0px 15px;
   margin-left: 0.875rem;
+  justify-content: space-evenly;
 }
 
 .navBarBackground {
@@ -145,9 +147,9 @@ a {
   font-weight: bold !important;
   text-shadow: 1px 0px black;
   color: black;
-  font-size: 1.75rem;
-  font-family: "Roboto";
-  font-weight: 900;
+  font-size: 1.5rem;
+  font-family: "Montserrat", "sans-serif";
+  font-weight: 400;
 }
 
 /**************************************
@@ -243,6 +245,7 @@ hr {
 .aboutMeSection p {
   color: black;
   margin-bottom: 4rem;
+  font-family: "Roboto", "sans-serif";
 }
 .aboutMeSection h3 {
   color: rgb(162, 0, 255);
@@ -292,7 +295,7 @@ hr {
 
 .contactInfo > p {
   color: black;
-  font-family: "Roboto", sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 
 .contactInfo p > a {
@@ -344,6 +347,14 @@ hr {
   background-color: var(--primary-orange);
   border-color: var(--primary-teal);
   transform: scale(1.1);
+}
+
+.card-title {
+  font-family: "Montserrat", "sans-serif" !important;
+}
+
+.card-text {
+  font-family: "Roboto", "sans-serif" !important;
 }
 
 /**************************************
@@ -555,6 +566,7 @@ hr {
   ************************************/
 .typed-text {
   font-size: 2rem;
+  font-family: "Montserrat", "sans-serif";
   color: var(--primary-orange);
 }
 

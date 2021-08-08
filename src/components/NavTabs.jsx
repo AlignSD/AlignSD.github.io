@@ -2,17 +2,26 @@ import React from "react";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Nav from 'react-bootstrap/Nav'
 import Navbar from 'react-bootstrap/Navbar'
-// import Link from 'react-scroll';
-// import {
 
-//   Link
-// } from "react-router-dom";
 
 import "../style.css"
 
 // TODO: replace name with logo.
 // TODO: new font styles for nav links.
 
+/* TODO: Change scroll to function to this instead.
+
+function findPos(obj) {
+    var curtop = 0;
+    if (obj.offsetParent) {
+        do {
+            curtop += obj.offsetTop;
+        } while (obj = obj.offsetParent);
+    return [curtop];
+    }
+}
+window.scroll(0,findPos(document.getElementById("yourSpecificElementId")));
+*/
 
 function NavTabs() {
   // This allows the component to check the route any time the user uses a link to navigate.
@@ -29,10 +38,10 @@ function NavTabs() {
       <Navbar.Toggle aria-controls="responsive-navbar-nav " />
       <Navbar.Collapse id="responsive-navbar-nav smallScreenNavLinks " >
         <div className="navbar-brand col-sm-4 col-md-4 smallScreenNavLinks navLinkColor">Evan Alioto</div><br />
-        <Nav className="col-sm-4 col-md-4 text-align-center justify-content-center" id="navLinks">
+        <Nav className="col-sm-4 col-md-4 text-align-center" id="navLinks">
 
           {/* smooth attribute causes the scroll to element to transition smoothly
-              eventKey is used to auto collapse the nav menu on smaller screen sizes when link is clicked */}
+              eventKey is used to auto collapse the nav menu on smaller screen sizes when link is clicked */}    
           <Nav.Link className="nav-link pageLink navLinkColor smallScreenNavLinks" onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })} eventKey="1" >Home</Nav.Link>
           <Nav.Link className="nav-link pageLink navLinkColor smallScreenNavLinks" onClick={() => document.getElementById("home").scrollIntoView({ behavior: "smooth", block: "start" })} eventKey="2">About Me</Nav.Link>
           <Nav.Link className="nav-link pageLink navLinkColor smallScreenNavLinks" onClick={() => document.getElementById("portfolio").scrollIntoView({ behavior: "smooth", block: "start" })} eventKey="3">Portfolio</Nav.Link>

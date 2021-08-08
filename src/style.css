@@ -582,11 +582,11 @@ canvas.tsparticles-canvas-el {
   z-index: 1;
 }
 
-@media (max-width: 768px) {
+/* @media (max-width: 768px) {
   .particles-canvas {
     display: none;
   }
-}
+} */
 
 element.style {
   height: 0%;

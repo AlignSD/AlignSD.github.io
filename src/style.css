@@ -45,17 +45,6 @@ p {
   color: White;
 }
 
-p.lead {
-  font-size: 1.15rem;
-  line-height: 2rem;
-  color: black;
-  font-family: "Roboto", sans-serif;
-}
-
-p.lead > a {
-  color: rgb(201, 25, 159);
-}
-
 span {
   font-size: 1em;
 }
@@ -297,6 +286,17 @@ hr {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
+  font-size: 1.15rem;
+  line-height: 2rem;
+}
+
+.contactInfo > p {
+  color: black;
+  font-family: "Roboto", sans-serif;
+}
+
+.contactInfo p > a {
+  color: rgb(201, 25, 159);
 }
 
 /**************************************

@@ -53,7 +53,7 @@ const AboutMe = () => {
               </div>
               <div className="aboutMeContainer right">
                 <div className="row-lg-5  aboutMeSection mx-auto my-5">
-                <p className="col-md-9 col-lg-6 ml-9">I bring to the table a lifetime of troubleshooting and debugging expirence and I believe those skill translate well into the developer role.</p>
+                <p className="col-md-9 col-lg-6 ml-9">I bring to the table a lifetime of troubleshooting and debugging expirence and I believe those skills translate well into the developer role.</p>
                   <h3 className="col-md-3">
                     What I can do for you.
                   </h3>

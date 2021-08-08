@@ -46,9 +46,14 @@ p {
 }
 
 p.lead {
-  font-size: 1.5rem;
+  font-size: 1.15rem;
   line-height: 2rem;
   color: black;
+  font-family: "Roboto", sans-serif;
+}
+
+p.lead > a {
+  color: rgb(201, 25, 159);
 }
 
 span {
@@ -288,6 +293,12 @@ hr {
   position: relative;
 }
 
+.contactInfo {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
 /**************************************
             Portfolio card
   ************************************/
@@ -465,7 +476,7 @@ hr {
     padding: 0px;
   }
   p.lead {
-    font-size: 1rem;
+    font-size: 0.5rem;
   }
   p.card-text {
     font-weight: normal;

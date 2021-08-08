@@ -1,4 +1,7 @@
 import React from 'react'
+
+// TODO: make buttons for email/resume/number links. it looks ridiculous right now.
+
 const aquaText = {
   color: '#06f0d1',
   fontFamily: 'Roboto',
@@ -57,7 +60,11 @@ const AboutMe = () => {
                 </div>
                 <hr></hr>
               </div>
-                <p className="lead">Phone Number: (619) 277-1629 <br />Email: <a href="mailto: EvanJAlioto@gmail.com" className="text-center">EvanJAlioto@gmail.com</a> <br />Resume: <a href="https://docs.google.com/document/d/15uS24K2SOu1fZxyA79FWfMy_Ids6xsWN8KZsOETqkNc/export?format=pdf">Click Here For PDF</a></p>
+            <div className="contactInfo">
+              <p className="lead">Phone Number:<span itemprop="telephone"></span><a href="tel:+1619-277-1629">(619) 277-1629</a></p>
+              <p className="lead">Email: <a href="mailto: EvanJAlioto@gmail.com" className="text-center">EvanJAlioto@gmail.com</a></p> 
+              <p className="lead">Resume: <a href="https://docs.google.com/document/d/15uS24K2SOu1fZxyA79FWfMy_Ids6xsWN8KZsOETqkNc/export?format=pdf">Click Here For PDF</a></p>
+            </div>    
               </div>
           </main>
       </div>

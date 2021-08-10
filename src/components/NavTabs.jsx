@@ -37,9 +37,9 @@ function NavTabs() {
 
           {/* smooth attribute causes the scroll to element to transition smoothly
               eventKey is used to auto collapse the nav menu on smaller screen sizes when link is clicked */}    
-          <Nav.Link className="nav-link pageLink navLinkColor smallScreenNavLinks" onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}>Home</Nav.Link>
-          <Nav.Link className="nav-link pageLink navLinkColor smallScreenNavLinks" onClick={() => window.scroll({ top: findPos(document.getElementById("technologies")), left: 0, behavior: 'smooth' })}>About Me</Nav.Link>
-          <Nav.Link className="nav-link pageLink navLinkColor smallScreenNavLinks" onClick={() => window.scroll({ top: findPos(document.getElementById("portfolio")), left: 0, behavior: 'smooth' })}>Portfolio</Nav.Link>
+          <Nav.Link className="nav-link pageLink navLinkColor smallScreenNavLinks" onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })} eventKey="1">Home</Nav.Link>
+          <Nav.Link className="nav-link pageLink navLinkColor smallScreenNavLinks" onClick={() => window.scroll({ top: findPos(document.getElementById("technologies")), left: 0, behavior: 'smooth' })} eventKey="2">About Me</Nav.Link>
+          <Nav.Link className="nav-link pageLink navLinkColor smallScreenNavLinks" onClick={() => window.scroll({ top: findPos(document.getElementById("portfolio")), left: 0, behavior: 'smooth' })} eventKey="3">Portfolio</Nav.Link>
           {/* <Link className="nav-link" to="/contact">contact</Link>  Leave this for future development if I want to link a database to this. */}
         </Nav>
         {/* <div className=" "> */}

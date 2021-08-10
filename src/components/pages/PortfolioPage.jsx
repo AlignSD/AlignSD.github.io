@@ -24,7 +24,7 @@ const styles = {
 
 function PortfolioPage() {
     return (
-        <div style={styles} id='portfolio' className="vertical-center d-flex align-items-center safari10 scrollTop scrollTopSmall " >
+        <div style={styles} id='portfolio' className="vertical-center d-flex align-items-center safari10" >
             <div className="container col-12 portfoliomargin">
                 <main role="main" className="row justify-content-center align-items-stretch portfoliomargin">
                     <PortfolioCard />

@@ -4,7 +4,7 @@ import React from 'react'
 
 const AboutMe = () => {
   return (
-    <div className="d-flex align-items-center vertical-center scrollTop scrollTopSmall" id="home">
+    <div className="d-flex align-items-center vertical-center" id="home">
       <div className="container col-12 aboutMe">
           <main role="main" className="noPadding">
               <div className="">

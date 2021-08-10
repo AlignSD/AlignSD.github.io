@@ -12,19 +12,6 @@ import Typed from 'react-typed';
 
 // TODO: Rename to MainBanner or something along those lines to better describe what it is.
 
-const aquaText = {
-    color: '#06f0d1',
-    fontFamily: 'Lobster',
-    fontSize: "4rem",
-    textShadow: "1px 0px black"
-}
-const aboutMeExlamation = {
-
-    fontFamily: 'Lobster',
-    fontSize: "4rem",
-    textShadow: "1px 0px black"
-}
-
 function HomePage() {
     return (
         <>

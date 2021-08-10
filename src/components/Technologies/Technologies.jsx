@@ -4,7 +4,7 @@ import { faCss3, faGit, faHtml5, faJs, faNode, faReact} from '@fortawesome/free-
 
 const Technologies = () => {
   return (
-    <div className="iconsContainer container">
+    <div className="iconsContainer container" id="technologies">
       <FontAwesomeIcon icon={faGit} black className="icon icon-cog" />
       <FontAwesomeIcon icon={faNode}  className="icon" />
       <FontAwesomeIcon icon={faReact} className="icon" />

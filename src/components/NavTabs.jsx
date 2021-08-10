@@ -7,11 +7,15 @@ import Navbar from 'react-bootstrap/Navbar'
 import "../style.css"
 
 // TODO: replace name with logo.
-// TODO: new font styles for nav links.
 
-/* TODO: Change scroll to function to this instead.
+function NavTabs() {
+  // This allows the component to check the route any time the user uses a link to navigate.
+  const navbarbackground = {
+    // background: "#333",
+    boxShadow: '0px 0px 0px 3px #06f0d1'
+  }
 
-function findPos(obj) {
+  function findPos(obj) {
     var curtop = 0;
     if (obj.offsetParent) {
         do {
@@ -20,15 +24,6 @@ function findPos(obj) {
     return [curtop];
     }
 }
-window.scroll(0,findPos(document.getElementById("yourSpecificElementId")));
-*/
-
-function NavTabs() {
-  // This allows the component to check the route any time the user uses a link to navigate.
-  const navbarbackground = {
-    // background: "#333",
-    boxShadow: '0px 0px 0px 3px #06f0d1'
-  }
 
 
   return (
@@ -42,9 +37,9 @@ function NavTabs() {
 
           {/* smooth attribute causes the scroll to element to transition smoothly
               eventKey is used to auto collapse the nav menu on smaller screen sizes when link is clicked */}    
-          <Nav.Link className="nav-link pageLink navLinkColor smallScreenNavLinks" onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })} eventKey="1" >Home</Nav.Link>
-          <Nav.Link className="nav-link pageLink navLinkColor smallScreenNavLinks" onClick={() => document.getElementById("home").scrollIntoView({ behavior: "smooth", block: "start" })} eventKey="2">About Me</Nav.Link>
-          <Nav.Link className="nav-link pageLink navLinkColor smallScreenNavLinks" onClick={() => document.getElementById("portfolio").scrollIntoView({ behavior: "smooth", block: "start" })} eventKey="3">Portfolio</Nav.Link>
+          <Nav.Link className="nav-link pageLink navLinkColor smallScreenNavLinks" onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}>Home</Nav.Link>
+          <Nav.Link className="nav-link pageLink navLinkColor smallScreenNavLinks" onClick={() => window.scroll({ top: findPos(document.getElementById("technologies")), left: 0, behavior: 'smooth' })}>About Me</Nav.Link>
+          <Nav.Link className="nav-link pageLink navLinkColor smallScreenNavLinks" onClick={() => window.scroll({ top: findPos(document.getElementById("portfolio")), left: 0, behavior: 'smooth' })}>Portfolio</Nav.Link>
           {/* <Link className="nav-link" to="/contact">contact</Link>  Leave this for future development if I want to link a database to this. */}
         </Nav>
         {/* <div className=" "> */}

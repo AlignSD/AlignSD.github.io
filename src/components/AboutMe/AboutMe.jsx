@@ -2,19 +2,6 @@ import React from 'react'
 
 // TODO: make buttons for email/resume/number links. it looks ridiculous right now.
 
-const aquaText = {
-  color: '#06f0d1',
-  fontFamily: 'Roboto',
-  fontWeight: 900,
-  fontSize: "4rem",
-}
-const aboutMeExlamation = {
-  
-  fontFamily: 'Roboto',
-  fontSize: "4rem",
-  color:"black",
-  textShadow: "1px 0px black"
-}
 const AboutMe = () => {
   return (
     <div className="d-flex align-items-center vertical-center scrollTop scrollTopSmall" id="home">

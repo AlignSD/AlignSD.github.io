@@ -125,6 +125,9 @@ a {
 .navbar-dark .navbar-nav .nav-link {
   color: var(--primary-white);
 }
+.navbar-dark .navbar-nav .nav-link:focus {
+  color: var(--primary-teal);
+}
 
 .navbar-brand {
   display: inline-block;

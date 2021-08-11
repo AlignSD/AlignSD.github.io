@@ -44,7 +44,7 @@ function Footer() {
             </div>
           </div>
           {/*content for email */}
-          <div className="col-md-4 col-lg-4 contact-box pt-1 d-md-block d-lg-flex d-flex">
+          <div className="col-md-4 col-lg-4 contact-box pt-1 d-md-block d-lg-flex d-flex justify-content-lg-center">
             <div className="contact-box__icon"><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-mail-opened" viewBox="0 0 24 24" stroke-width="1" fill="none" stroke-linecap="round" stroke-linejoin="round">
   <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
   <polyline points="3 9 12 15 21 9 12 3 3 9" />
@@ -58,7 +58,7 @@ function Footer() {
             </div>
           </div>
           {/*content for location */}
-          <div className="col-md-4 col-lg-4 contact-box pt-1 d-md-block d-lg-flex d-flex">
+          <div className="col-md-4 col-lg-4 contact-box pt-1 d-md-block d-lg-flex d-flex justify-content-lg-center">
             <div className="contact-box__icon"><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-map-2" viewBox="0 0 24 24" stroke-width="1" fill="none" stroke-linecap="round" stroke-linejoin="round">
   <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
   <line x1="18" y1="6" x2="18" y2="6.01" />

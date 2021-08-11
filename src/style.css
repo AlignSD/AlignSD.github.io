@@ -1,7 +1,6 @@
 /*
 TODO: Refractor all unused css. 
 TODO: consider breaking code out into modules for each component.
-TODO: about me section needs to be cleaned up on smaller screen queries. bottom margin is too big.
 */
 
 /**************************************
@@ -108,21 +107,19 @@ a {
   transition: all 0.2s ease-in-out;
 }
 
-.socialLinks:hover,
-.socialLinks:focus {
-  transform: scale(1.1);
-}
-
 .pageLink {
   color: var(--primary-white);
   transition: all 0.2s ease-in-out;
 }
-.pageLink:active {
-  color: var(--primary-teal);
+.pageLink:active,
+.pageLink:focus {
+  color: var(--primary-teal) !important;
 }
 
 .pageLink:hover,
-.pageLink:focus {
+.pageLink:focus,
+.socialLinks:hover,
+.socialLinks:focus {
   transform: scale(1.1);
 }
 
@@ -389,6 +386,11 @@ hr {
   font-size: 1.5rem;
   font-weight: 500;
   text-align: left !important;
+}
+
+.contact-box__info--title:hover,
+.contact-box__info--title:focus {
+  color: var(--primary-purple);
 }
 
 .contact-box__info--subtitle {

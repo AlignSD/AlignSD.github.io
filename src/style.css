@@ -74,11 +74,16 @@ a {
   padding-left: 1rem;
 }
 
+.nav-link {
+  display: block;
+  padding: .5rem .6rem;
+}
+
 #navLinks {
   font-family: "Montserrat", "sans-serif";
   padding: 0px 15px 0px 15px;
   margin-left: 0.875rem;
-  justify-content: space-evenly;
+  justify-content: flex-end;
 }
 
 .navBarBackground {
@@ -95,6 +100,7 @@ a {
   justify-content: flex-end;
   margin: 0px;
   padding: 0px 15px;
+  padding-left: 0px !important;
 }
 
 .socialLinks {
@@ -104,6 +110,9 @@ a {
 .pageLink {
   color: var(--primary-white);
   transition: all 0.2s ease-in-out;
+  font-size: 1.2rem !important;
+  justify-content: flex-end;
+
 }
 .pageLink:active,
 .pageLink:focus {

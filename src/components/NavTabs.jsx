@@ -40,7 +40,7 @@ function NavTabs() {
           <Nav.Link className="nav-link pageLink navLinkColor smallScreenNavLinks" onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })} eventKey="1">Home</Nav.Link>
           <Nav.Link className="nav-link pageLink navLinkColor smallScreenNavLinks" onClick={() => window.scroll({ top: findPos(document.getElementById("technologies")), left: 0, behavior: 'smooth' })} eventKey="2">About</Nav.Link>
           <Nav.Link className="nav-link pageLink navLinkColor smallScreenNavLinks" onClick={() => window.scroll({ top: findPos(document.getElementById("portfolio")), left: 0, behavior: 'smooth' })} eventKey="3">Portfolio</Nav.Link>
-          <Nav.Link className="nav-link pageLink navLinkColor smallScreenNavLinks" onClick={() => window.scroll({ top: findPos(document.getElementById("contact")), left: 0, behavior: 'smooth' })} eventKey="3">Contact</Nav.Link>
+          <Nav.Link className="nav-link pageLink navLinkColor smallScreenNavLinks" onClick={() => window.scroll({ top: findPos(document.getElementById("contact")), left: 0, behavior: 'smooth' })} eventKey="4">Contact</Nav.Link>
           {/* <Link className="nav-link" to="/contact">contact</Link>  Leave this for future development if I want to link a database to this. */}
         </Nav>
         {/* <div className=" "> */}

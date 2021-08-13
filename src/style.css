@@ -189,6 +189,7 @@ a {
   right: 0;
   bottom: 0;
   padding-bottom: 70px;
+  padding-top: 5rem;
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -199,6 +200,29 @@ a {
 
 .header-title {
   font-size: 4rem;
+}
+
+.header-btn-container {
+  display:flex;
+  margin-top: 8rem;
+}
+
+.header-btn {
+  background-color: white !important;
+  border: .15rem solid var(--primary-pink);
+  color: var(--primary-pink);
+  width: 8rem;
+  height: 3rem;
+  border-radius: 35px;
+  margin-left: 3rem;
+  margin-right: 3rem;
+  font-weight: 400;
+  font-size: 1.75rem;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  cursor: grab;
+  z-index: 2;
 }
 
 /**************************************

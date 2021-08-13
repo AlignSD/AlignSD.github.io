@@ -9,9 +9,9 @@
 /coverage
 
 # production
-/build
-/public
-/old-site
+./build
+./public
+./old-site
 
 # misc
 .DS_Store

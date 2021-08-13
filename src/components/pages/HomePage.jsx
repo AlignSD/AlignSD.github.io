@@ -15,8 +15,8 @@ import Typed from 'react-typed';
 function HomePage() {
     return (
         <>
-            <div className='header-wraper '>
-                <div className='main-info'>
+            <div className='header-wraper row'>
+                <div className='main-info '>
                     <h1 className="header-title">Hi, I'm Evan!</h1>
                     <Typed
                         className='typed-text'
@@ -25,6 +25,11 @@ function HomePage() {
                         backSpeed={50}
                         loop={true}
                     />
+                    <div className="div header-btn-container">
+                        <a className="header-btn my-20"href="">Resume</a>
+                        <a className="header-btn my-20"href="">Email</a>
+                        <a className="header-btn my-20"href="tel:+1619-277-1629">Phone</a>
+                    </div> 
                 </div>
             </div>
             {/* <Technologies className="icon"/> */}

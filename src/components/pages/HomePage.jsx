@@ -26,8 +26,8 @@ function HomePage() {
                         loop={true}
                     />
                     <div className="div header-btn-container">
-                        <a className="header-btn my-20"href="">Resume</a>
-                        <a className="header-btn my-20"href="">Email</a>
+                        <a className="header-btn my-20"href="https://docs.google.com/document/d/15uS24K2SOu1fZxyA79FWfMy_Ids6xsWN8KZsOETqkNc/export?format=pdf">Resume</a>
+                        <a className="header-btn my-20"href="mailto: EvanJAlioto@gmail.com">Email</a>
                         <a className="header-btn my-20"href="tel:+1619-277-1629">Phone</a>
                     </div> 
                 </div>

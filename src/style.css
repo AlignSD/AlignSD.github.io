@@ -214,6 +214,7 @@ a {
   border: 0;
   border: 1px solid rgba(255, 255, 255, 0.1);
   border-radius: 2px;
+  box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.25);
   backdrop-filter: blur(30px);
   color: rgba(255, 255, 255, 0.8);
   width: 8rem;
@@ -394,17 +395,31 @@ hr {
 }
 
 .portBtn {
-  margin-right: 20px;
-  margin-left: 20px;
-  background-color: var(--primary-light-grey);
+  background-color: rgba(255, 255, 255, 0.2);
+  border: 0;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  box-shadow: 0 0 25px 5px rgba(0, 0, 0, 0.25);
+  border-radius: 2px;
+  backdrop-filter: blur(30px);
+  color: rgba(255, 255, 255, 0.8);
+  width: 8rem;
+  height: 1.8em;
+  margin-left: 1em;
+  margin-right: 1em;
+  padding-top: 0.09em;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  text-decoration: none;
+  cursor: grab;
+  z-index: 2;
   transition: all 0.2s ease-in-out;
-  border-color: var(--primary-teal);
 }
 .portBtn:focus,
 .portBtn:hover {
   margin-right: 20px;
   margin-left: 20px;
-  background-color: var(--primary-orange);
+  background-color: rgba(255, 255, 255, 0.3);
+  color: rgba(255, 255, 255, 1);
   border-color: var(--primary-teal);
   transform: scale(1.1);
 }

@@ -110,7 +110,7 @@ a {
 .pageLink {
   color: var(--primary-white);
   transition: all 0.2s ease-in-out;
-  font-size: 1.1rem !important;
+  font-size: 1.3rem !important;
   font-weight: 400;
   justify-content: flex-end;
 }
@@ -617,8 +617,6 @@ hr {
     object-fit: contain;
   }
   .portBtn {
-    margin-right: 0px;
-    margin-left: 0px;
     margin-top: 10px;
   }
 

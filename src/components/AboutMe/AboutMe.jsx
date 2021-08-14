@@ -47,11 +47,11 @@ const AboutMe = () => {
                 </div>
                 <hr></hr>
               </div>
-            <div className="contactInfo row">
+            {/* <div className="contactInfo row">
               <p className="col-lg-4 col-md-6 col-sm-12">Phone Number:<span itemprop="telephone"></span><a href="tel:+1619-277-1629">(619) 277-1629</a></p>
               <p className="col-lg-4 col-md-6 col-sm-12">Email: <a href="mailto: EvanJAlioto@gmail.com" className="text-center">EvanJAlioto@gmail.com</a></p> 
               <p className="col-lg-4 col-md-6 col-sm-12">Resume: <a href="https://docs.google.com/document/d/15uS24K2SOu1fZxyA79FWfMy_Ids6xsWN8KZsOETqkNc/export?format=pdf">Click Here For PDF</a></p>
-            </div>    
+            </div>     */}
               </div>
           </main>
       </div>

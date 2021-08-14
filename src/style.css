@@ -110,7 +110,8 @@ a {
 .pageLink {
   color: var(--primary-white);
   transition: all 0.2s ease-in-out;
-  font-size: 1.2rem !important;
+  font-size: 1.1rem !important;
+  font-weight: 400;
   justify-content: flex-end;
 }
 .pageLink:active,
@@ -140,6 +141,7 @@ a {
   line-height: inherit;
   white-space: nowrap;
   margin-right: 0px;
+  font-weight: bold !important;
 }
 
 .card-img-top {
@@ -154,7 +156,7 @@ a {
 
 .navLinkColor {
   /* color: black !important; */
-  font-weight: bold !important;
+
   text-shadow: 1px 0px var(--primary-black);
   color: var(--primary-black);
   font-size: 1.5rem;
@@ -206,6 +208,36 @@ a {
   margin-top: 8rem;
 }
 
+.header-btn {
+  background-color: rgba(255, 255, 255, 0.2);
+  border: 0;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 2px;
+  backdrop-filter: blur(30px);
+  color: rgba(255, 255, 255, 0.8);
+  width: 8rem;
+  height: 1.8em;
+  margin-left: 1em;
+  margin-right: 1em;
+  padding-top: 0.09em;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 1.2rem;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  cursor: grab;
+  z-index: 2;
+  transition: all 0.2s ease-in-out;
+}
+.header-btn:hover {
+  background-color: rgba(255, 255, 255, 0.3);
+  color: rgba(255, 255, 255, 0.9);
+  text-decoration: none;
+  transform: scale(1.1);
+}
+
 @media (max-width: 600px) {
   .header-btn-container {
     display: flex;
@@ -215,33 +247,6 @@ a {
   .header-btn {
     margin-top: 1em;
   }
-}
-
-.header-btn {
-  background-color: rgba(255, 255, 255, 0.2);
-  border: 0;
-  border: 1px solid rgba(255, 255, 255, 0.1);
-  border-radius: 2px;
-  backdrop-filter: blur(30px);
-  color: rgba(255, 255, 255, 0.8);
-  width: 8rem;
-  height: 3rem;
-  margin-left: 1em;
-  margin-right: 1em;
-  font-family: "Roboto", sans-serif;
-  font-weight: 400;
-  font-size: 1.75rem;
-  text-decoration: none;
-  display: flex;
-  justify-content: center;
-  align-content: center;
-  cursor: grab;
-  z-index: 2;
-}
-.header-btn:hover {
-  background-color: rgba(255, 255, 255, 0.3);
-  color: rgba(255, 255, 255, 0.9);
-  text-decoration: none;
 }
 
 /**************************************

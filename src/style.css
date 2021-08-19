@@ -110,7 +110,8 @@ a {
 .pageLink {
   color: var(--primary-white);
   transition: all 0.2s ease-in-out;
-  font-size: 1.3rem !important;
+  font-size: 1.4rem !important;
+  font-style: bold;
   font-weight: 400;
   justify-content: flex-end;
 }
@@ -160,7 +161,7 @@ a {
 
   text-shadow: 1px 0px var(--primary-black);
   color: var(--primary-black);
-  font-size: 1.5rem;
+  font-size: 1.8rem;
   font-family: "Montserrat", "sans-serif";
   font-weight: 400;
 }
@@ -201,7 +202,7 @@ a {
 }
 
 .header-title {
-  font-size: 4rem;
+  font-size: 7rem;
 }
 
 .header-btn-container {
@@ -611,11 +612,13 @@ hr {
     object-fit: cover;
     margin-top: 15px;
   }
+
   .card-body {
     flex-grow: 1;
     height: auto;
     object-fit: contain;
   }
+
   .portBtn {
     margin-top: 10px;
   }

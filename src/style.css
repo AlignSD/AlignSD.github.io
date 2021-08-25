@@ -419,7 +419,7 @@ hr {
 .portBtn:hover {
   margin-right: 20px;
   margin-left: 20px;
-  background-color: rgba(255, 255, 255, 0.3);
+  background-color: white;
   color: #d516f4;
   border-color: var(--primary-teal);
   transform: scale(1.1);

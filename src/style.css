@@ -370,12 +370,6 @@ hr {
 #portfolio > div {
   margin-bottom: 0px;
 }
-.portfolio-card {
-  background-color: rgb(45, 46, 47);
-  box-shadow: 0 5px 10px rgba(154, 160, 185, 0.05),
-    0 15px 40px rgba(166, 173, 201, 0.2);
-  margin: 20px;
-}
 
 .portfoliomargin {
   /* padding-top: 40px; */
@@ -395,42 +389,146 @@ hr {
   flex-grow: 1;
 }
 
+.portfolio-container {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  margin: 8rem;
+}
+
 .portBtn {
-  background-color: rgba(255, 255, 255, 0.2);
-  border: 0;
-  border: 1px solid rgba(255, 255, 255, 0.1);
-  box-shadow: 0 0 25px 5px rgba(0, 0, 0, 0.25);
+  background: #ffffff;
+  border: 1px solid #ffffff;
+  box-sizing: border-box;
+  box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.25);
   border-radius: 2px;
-  backdrop-filter: blur(30px);
-  color: rgba(255, 255, 255, 0.8);
-  width: 8rem;
+  width: 10rem;
   height: 1.8em;
   margin-left: 1em;
   margin-right: 1em;
+  margin-bottom: 2rem;
   padding-top: 0.09em;
   font-family: "Montserrat", sans-serif;
-  font-weight: 400;
+  font-weight: bold;
   text-decoration: none;
   cursor: grab;
-  z-index: 2;
   transition: all 0.2s ease-in-out;
+  color: #d516f4;
 }
 .portBtn:focus,
 .portBtn:hover {
   margin-right: 20px;
   margin-left: 20px;
   background-color: rgba(255, 255, 255, 0.3);
-  color: rgba(255, 255, 255, 1);
+  color: #d516f4;
   border-color: var(--primary-teal);
   transform: scale(1.1);
 }
 
 .card-title {
   font-family: "Montserrat", "sans-serif" !important;
+  padding-bottom: 2rem;
+  padding-top: 2rem;
+  font-size: 1.5rem;
 }
 
 .card-text {
   font-family: "Roboto", "sans-serif" !important;
+  margin-bottom: 2rem;
+}
+
+.card-body {
+  width: 100%;
+  background-color: rgb(45, 46, 47);
+  box-shadow: 0 5px 10px rgba(154, 160, 185, 0.05),
+    0 15px 40px rgba(166, 173, 201, 0.2);
+  padding: 4rem;
+  box-shadow: 11px 11px 14px rgba(0, 0, 0, 0.17);
+  border-radius: 25px;
+}
+
+.card-body-left {
+  width: 25rem;
+}
+
+.image-container {
+  width: 55%;
+  position: absolute;
+  left: calc(50% - 364px / 2 + 326px);
+  top: calc(50% - 288px / 2 + 2.01px);
+}
+.portfolio-image {
+  width: 364px;
+  height: 288px;
+  z-index: 9999;
+  filter: drop-shadow(16px 11px 18px rgba(0, 0, 0, 0.52))
+    drop-shadow(0px 19px 18px rgba(0, 0, 0, 0.36));
+  border-radius: 25px;
+  transform: rotate(-7.5deg);
+}
+
+.portfolio-image-hidden {
+  display: none;
+}
+
+@media (max-width: 1200px) {
+  .card-body {
+    font-size: 0.5rem;
+    width: 60%;
+  }
+
+  .portfolio-container {
+    width: 75%;
+  }
+}
+@media (max-width: 981px) {
+  .portfolio-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .card-body-left {
+    width: 100%;
+  }
+  .card-body {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .image-container {
+    position: unset;
+    width: 100%;
+    padding: unset;
+    margin: unset;
+  }
+  .portfolio-image {
+    transform: unset;
+    display: none;
+  }
+  .portfolio-image-hidden {
+    display: block;
+    width: 20rem;
+    filter: drop-shadow(16px 11px 18px rgba(0, 0, 0, 0.52))
+      drop-shadow(0px 19px 18px rgba(0, 0, 0, 0.36));
+    border-radius: 25px;
+    width: 90%;
+    height: 12.5rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .portfolio-image-hidden {
+    width: 100%;
+  }
+  .card-body {
+    padding: 2rem;
+  }
+  .portfoliomargin {
+    padding-top: 60px !important;
+  }
 }
 
 /**************************************

@@ -62,14 +62,21 @@ const PortfolioCard = () => {
 
   const renderCard = (project, index) => {
     return (
-      <div className="card text-center portfolio-card mr-5 ml-5 mb-5  smallScreenPort" key={index}>
-          <img src={project.image} className="card-img-top" alt="screen with code" />
-          <div className="card-body">
-              <h5 className="card-title">{project.name}</h5>
-              <p className="card-text">{project.description}</p>
-              <a href={project.liveLink} className="portBtn btn btn-primary portfolioButtons" target="_blank" rel="noreferrer">Live Product</a>
-              <a href={project.githubLink} className="portBtn btn btn-primary portfolioButtons" target="_blank" rel="noreferrer">Github Page</a>
+      <div className="portfolio-container text-center portfolio-card mr-5 ml-5 mb-5  smallScreenPort" key={index}>
+        
+        <div className="image-container">
+          <img src={project.image} className="portfolio-image" alt="screen with code" />
+        </div>
+        <div className="card-body">
+        <img src={project.image} className="portfolio-image-hidden" alt="screen with code" />
+          <div className="card-body-left">
+            <h5 className="card-title">{project.name}</h5>
+            <p className="card-text">{project.description}</p>
+            <a href={project.liveLink} className="portBtn btn btn-primary portfolioButtons" target="_blank" rel="noreferrer">Live Product</a>
+            <a href={project.githubLink} className="portBtn btn btn-primary portfolioButtons" target="_blank" rel="noreferrer">Github Page</a>
           </div>
+        </div>
+        
         </div> 
         
     )

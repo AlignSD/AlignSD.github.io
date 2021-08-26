@@ -507,6 +507,8 @@ hr {
   .portfolio-image {
     transform: unset;
     display: none;
+    filter: drop-shadow(16px 11px 18px rgba(0, 0, 0, 0.32))
+      drop-shadow(0px 19px 18px rgba(0, 0, 0, 0.16));
   }
   .portfolio-image-hidden {
     display: block;
